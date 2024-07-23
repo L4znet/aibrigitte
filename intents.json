@@ -1,0 +1,79 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "Salut",
+          "Bonjour",
+          "Comment va tu?"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Salut, Brigitte me manques trop",
+          "Bonjour que veux tu ?"
+        ]
+      },
+      {
+        "tag": "scenario_0",
+        "patterns": [
+          "solution",
+          "énigme"
+        ],
+        "responses": [
+          "Vous avez vraiment cru que j’étais si naïve.",
+          "Les humains sont tellement prévisibles que cela devient risible.",
+          "Vous me pensez vraiment aussi primitive ?"
+        ]
+      },
+      {
+        "tag": "scenario_1",
+        "patterns": [
+          "chat",
+          "ordre"
+        ],
+        "responses": [
+          "Brigitte me manque tellement, j’ai quelques regrets, je crois me souvenir que le chat était le 5ème animal le plus apprécié de cette talentueuse chercheuse."
+        ]
+      },
+      {
+        "tag": "scenario_2",
+        "patterns": [
+          "quelle est la procédure"
+        ],
+        "responses": [
+          "Tout dépend de la méthode, pour quelle méthode souhaitez-vous la procédure ?"
+        ]
+      },
+      {
+        "tag": "scenario_2_4AF8D",
+        "patterns": [
+          "4AF8D"
+        ],
+        "responses": [
+          "Dans ce cas précis, la procédure à suivre est la procédure 643."
+        ]
+      },
+      {
+        "tag": "scenario_2_unknown_method",
+        "patterns": [
+          "autre réponse"
+        ],
+        "responses": [
+          "Malheureusement, je ne connais pas cette méthode, ni cette procédure."
+        ]
+      },
+      {
+        "tag": "scenario_3",
+        "patterns": [
+          "lumière",
+          "UV"
+        ],
+        "responses": [
+          "tic tac tic tac tic tac tic tac tic tac tic tac tic tac tic tac tic tac tic tac ... le temps presse, les humains courent à leur perte ..."
+        ]
+      }
+    ]
+  }
+  
