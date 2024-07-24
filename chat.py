@@ -1,55 +1,78 @@
-import random
+import nltk
+from nltk.stem import WordNetLemmatizer
+lemmatizer = WordNetLemmatizer()
+import pickle
+import numpy as np
+
+from tensorflow.keras.models import load_model
+model = load_model('chatbot_model.h5')
 import json
+import random
+intents = json.loads(open('intents.json').read())
+words = pickle.load(open('words.pkl','rb'))
+classes = pickle.load(open('classes.pkl','rb'))
 
-import torch
 
-from model import NeuralNet
-from nltk_utils import bag_of_words, tokenize
+def cleanUpSentence(sentence):
+     # Tokenise la phrase - séparer les mots dans un tableau
+    sentenceWords = nltk.word_tokenize(sentence)
+    # Lemmatizer chaque mot
+    sentenceWords = [lemmatizer.lemmatize(word.lower()) for word in sentenceWords]
+    return sentenceWords
 
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+# return bag of words array: 0 or 1 for each word in the bag that exists in the sentence
 
-with open('intents.json', 'r') as json_data:
-    intents = json.load(json_data)
+def bow(sentence, words):
+     # Tokeniser la phrase
+    sentenceWords = cleanUpSentence(sentence)
+    # Sac de mots, matrice de vocabulaire
+    bag = [0]*len(words)  
+    for s in sentenceWords:
+        for i,w in enumerate(words):
+            if w == s: 
+                # Assigne 1 si le mot actuel est dans la position de vocabulaire
+                bag[i] = 1
+    return(np.array(bag))
 
-FILE = "data.pth"
-data = torch.load(FILE)
+def predictClass(sentence, model):
+    # Filtrer les prédictions
+    p = bow(sentence, words)
+    res = model.predict(np.array([p]))[0]
+    ERROR_THRESHOLD = 0.25
+    results = [[i,r] for i,r in enumerate(res) if r>ERROR_THRESHOLD]
+    # Trier par force de probabilité
+    results.sort(key=lambda x: x[1], reverse=True)
+    returnList = []
+    for r in results:
+        returnList.append({"intent": classes[r[0]], "probability": str(r[1])})
+    return returnList
 
-input_size = data["input_size"]
-hidden_size = data["hidden_size"]
-output_size = data["output_size"]
-all_words = data['all_words']
-tags = data['tags']
-model_state = data["model_state"]
 
-model = NeuralNet(input_size, hidden_size, output_size).to(device)
-model.load_state_dict(model_state)
-model.eval()
+# getresponse fonction pour obtenir la réponse de l'intention
+def getResponse(ints, intentsJson):
+    tag = ints[0]['intent']
+    list_of_intents = intentsJson['intents']
+    
+    for i in listOfIntents:
+        if(i['tag']== tag):
+            result = random.choice(i['responses'])
+            break
+    return result
 
-bot_name = "Brigitte"
-print("Let's chat! (type 'quit' to exit)")
-while True:
-    # sentence = "do you use credit cards?"
-    sentence = input("You: ")
-    if sentence == "quit":
-        break
+# fonction pour les reponse du bot
+def chatbotResponse(msg):
+    ints = predictClass(msg, model)
+    res = getResponse(ints, intents)
+    return res
 
-    sentence = tokenize(sentence)
-    X = bag_of_words(sentence, all_words)
-    X = X.reshape(1, X.shape[0])
-    X = torch.from_numpy(X).to(device)
 
-    output = model(X)
-    _, predicted = torch.max(output, dim=1)
-   
-
-    tag = tags[predicted.item()]
-
-    probs = torch.softmax(output, dim=1)
-    prob = probs[0][predicted.item()]
-    print(f"Probabilities: {probs}")
-    if prob.item() > 0.85:
-        for intent in intents['intents']:
-            if tag == intent["tag"]:
-                print(f"{bot_name}: {random.choice(intent['responses'])}")
-    else:
-        print(f"{bot_name}: I do not understand...")
+def mainChat():
+    print("Parle")
+    while True:
+        message = input("")
+        if message == "quit":
+            break
+        print(chatbotResponse(message))
+        
+        
+mainChat()
