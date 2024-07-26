@@ -28,6 +28,7 @@ class MainWidget(QtWidgets.QWidget):
         self.layoutMain = QtWidgets.QVBoxLayout() 
         
         self.title = QtWidgets.QLabel("Brigitte")
+        self.title.setAlignment(QtCore.Qt.AlignmentFlag.AlignHCenter)
         
         self.inputQuestion = QtWidgets.QLineEdit()
         self.inputQuestion.setPlaceholderText("Ecrit un truc")
@@ -35,19 +36,59 @@ class MainWidget(QtWidgets.QWidget):
         self.buttonSend = QtWidgets.QPushButton("Envoyer")
         
         self.chatBox = QtWidgets.QVBoxLayout()
+        self.chatBoxWidget = QtWidgets.QWidget()
+        self.chatBoxWidget.setLayout(self.chatBox)
         
-        
-        
+        self.scrollArea = QtWidgets.QScrollArea()
+        self.scrollArea.setWidgetResizable(True)
+        self.scrollArea.setWidget(self.chatBoxWidget)
+
+
+        self.layoutMain.addLayout(self.chatBox)
         self.layoutMain.addWidget(self.title)
         self.layoutMain.addWidget(self.inputQuestion)
         self.layoutMain.addWidget(self.buttonSend)
-        self.layoutMain.addLayout(self.chatBox)
+        self.layoutMain.addWidget(self.scrollArea)
         
         self.setLayout(self.layoutMain)
         
         
         self.buttonSend.clicked.connect(self.sendUserMessage)
+        self.inputQuestion.returnPressed.connect(self.sendUserMessage)
         
+        self.setStyleSheet("""
+            QWidget {
+                background-color: rgba(10, 26, 42, 0.8);
+                color: #e67e22;
+                font-family: Arial, sans-serif;
+                font-size: 16px;
+            }
+            QLineEdit {
+                background-color: rgba(10, 26, 42, 0.8);
+                color: #e67e22;
+                border: 1px solid #e67e22;
+                padding: 5px;
+            }
+            QPushButton {
+                background-color: #e67e22;
+                color: #0a1a2a;
+                border: none;
+                padding: 10px;
+                font-size: 16px;
+            }
+            QPushButton:hover {
+                background-color: #d35400;
+            }
+            QLabel {
+                font-size: 24px;
+                font-weight: bold;
+                color: #e67e22;
+            }
+            QScrollArea {
+                background-color: rgba(10, 26, 42, 0.8);
+            }
+        """)
+
         
     @QtCore.Slot()
     
@@ -107,10 +148,13 @@ class MainWidget(QtWidgets.QWidget):
 
 
     def sendUserMessage(self):
-        self.chatBox.addWidget(QtWidgets.QLabel(self.inputQuestion.text()))
-        reponseIA = self.chatbotResponse(self.inputQuestion.text())
-        self.chatBox.addWidget(QtWidgets.QLabel(reponseIA))
-        self.inputQuestion.clear()
+            user_message = self.inputQuestion.text()
+            if user_message:
+                self.chatBox.addWidget(QtWidgets.QLabel(f"User: {user_message}"))
+                response_message = self.chatbotResponse(user_message)
+                self.chatBox.addWidget(QtWidgets.QLabel(f"Bot: {response_message}"))
+                self.inputQuestion.clear()
+                self.scrollArea.verticalScrollBar().setValue(self.scrollArea.verticalScrollBar().maximum())
         
 
     # def mainChat(self):

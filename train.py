@@ -1,4 +1,4 @@
-import nltk
+import nltk 
 from nltk.stem import WordNetLemmatizer
 import json
 import pickle
@@ -7,6 +7,8 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout
 from tensorflow.keras.optimizers import SGD
 import random
+nltk.download('punkt')
+nltk.download('wordnet')
 
 # initialise le lemmatizer
 lemmatizer = WordNetLemmatizer()
