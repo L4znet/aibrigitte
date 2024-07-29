@@ -8,10 +8,9 @@ from nltk.stem import WordNetLemmatizer
 from PySide6 import QtWidgets, QtCore, QtGui
 from tensorflow.keras.models import load_model
 
-# Initialiser le lemmatizer
+
 lemmatizer = WordNetLemmatizer()
 
-# Charger le modèle entraîné et les données
 model = load_model('chatbot_model.h5')
 intents = json.loads(open('intents.json').read())
 words = pickle.load(open('words.pkl', 'rb'))
@@ -21,12 +20,11 @@ class MainWidget(QtWidgets.QWidget):
     def __init__(self):
         super().__init__()
 
-        # Mise en page principale
         self.layoutMain = QtWidgets.QVBoxLayout()
 
         # Ajouter l'image du chatbot au centre
         self.chatbot_image = QtWidgets.QLabel()
-        self.set_chatbot_image('chatbot.jpg')  # Assurez-vous d'avoir une image nommée 'chatbot.jpg'
+        self.set_chatbot_image('chatbot.jpg')  
         self.chatbot_image.setAlignment(QtCore.Qt.AlignCenter)
         self.layoutMain.addWidget(self.chatbot_image, alignment=QtCore.Qt.AlignCenter)
 
@@ -77,7 +75,7 @@ class MainWidget(QtWidgets.QWidget):
 
         # Bouton avec icône d'envoi
         self.buttonSend = QtWidgets.QPushButton()
-        send_icon = QtGui.QIcon("send_icon.png")  # Assurez-vous d'avoir une image nommée 'send_icon.png'
+        send_icon = QtGui.QIcon("send_icon.png") 
         self.buttonSend.setIcon(send_icon)
         self.buttonSend.setStyleSheet("""
             background-color: #1F272B;
@@ -95,14 +93,13 @@ class MainWidget(QtWidgets.QWidget):
 
         # Connecter le clic du bouton à la méthode sendUserMessage
         self.buttonSend.clicked.connect(self.sendUserMessage)
-        self.inputQuestion.returnPressed.connect(self.sendUserMessage)  # Connecter la touche Entrée pour envoyer le message
+        self.inputQuestion.returnPressed.connect(self.sendUserMessage) 
 
         # Définir le titre de la fenêtre et la taille
         self.setWindowTitle("Chatbot Brigitte")
         self.resize(800, 600)
 
     def set_chatbot_image(self, image_path):
-        # Charger l'image
         pixmap = QtGui.QPixmap(image_path)
         # Redimensionner et recadrer pour s'adapter dans un cercle
         size = min(pixmap.width(), pixmap.height())
@@ -142,7 +139,6 @@ class MainWidget(QtWidgets.QWidget):
         for s in sentenceWords:
             for i, w in enumerate(words):
                 if w == s: 
-                    # Assigner 1 si le mot actuel est à la position du vocabulaire
                     bag[i] = 1
         return np.array(bag)
 
@@ -182,7 +178,6 @@ class MainWidget(QtWidgets.QWidget):
             reponseIA = self.chatbotResponse(user_message)
             self.chatBox.addWidget(self.create_message_bubble(reponseIA, is_user=False))
             self.inputQuestion.clear()
-            # Défilement jusqu'en bas pour voir les nouveaux messages
             self.chatBoxScroll.verticalScrollBar().setValue(self.chatBoxScroll.verticalScrollBar().maximum())
 
     def create_message_bubble(self, message, is_user=True):
@@ -230,7 +225,6 @@ class MainWidget(QtWidgets.QWidget):
         return bubble
 
 if __name__ == "__main__":
-    # Initialiser l'application
     app = QtWidgets.QApplication([])
     app.setStyleSheet("QWidget { background-color: #E1E1E1; }")
     QtCore.QCoreApplication.setApplicationName("Brigitte")
