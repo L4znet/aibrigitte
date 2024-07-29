@@ -1,21 +1,21 @@
 import nltk
 from nltk.stem import WordNetLemmatizer
-lemmatizer = WordNetLemmatizer()
 import pickle
 import numpy as np
 import sys
+from tensorflow.keras.models import load_model
 from PySide6 import QtWidgets
+import json
+import random
+
 try:
-    from PySide6 import QtCore, QtWidgets
+    from PySide6 import QtCore, QtWidgets, QtGui
 except ImportError:
     print("PySide6 is not installed")
     sys.exit(1)
 
-
-from tensorflow.keras.models import load_model
+lemmatizer = WordNetLemmatizer()
 model = load_model('chatbot_model.h5')
-import json
-import random
 intents = json.loads(open('intents.json').read())
 words = pickle.load(open('words.pkl','rb'))
 classes = pickle.load(open('classes.pkl','rb'))
@@ -27,9 +27,11 @@ class MainWidget(QtWidgets.QWidget):
         
         self.layoutMain = QtWidgets.QVBoxLayout() 
         
+
         self.title = QtWidgets.QLabel("Brigitte")
         self.title.setAlignment(QtCore.Qt.AlignmentFlag.AlignHCenter)
-        
+
+
         self.inputQuestion = QtWidgets.QLineEdit()
         self.inputQuestion.setPlaceholderText("Ecrit un truc")
         
@@ -45,49 +47,87 @@ class MainWidget(QtWidgets.QWidget):
 
 
         self.layoutMain.addLayout(self.chatBox)
-        self.layoutMain.addWidget(self.title)
         self.layoutMain.addWidget(self.inputQuestion)
         self.layoutMain.addWidget(self.buttonSend)
         self.layoutMain.addWidget(self.scrollArea)
         
         self.setLayout(self.layoutMain)
         
-        
         self.buttonSend.clicked.connect(self.sendUserMessage)
         self.inputQuestion.returnPressed.connect(self.sendUserMessage)
         
-        self.setStyleSheet("""
-            QWidget {
-                background-color: rgba(10, 26, 42, 0.8);
-                color: #e67e22;
+        self.setStyleSheet(f"""
+            MainWidget {{
+                background: url('./evennement.jpg') no-repeat center center fixed;
+                background-size: cover;
+            }}
+            QWidget {{
+                background-color: #344D59; /* Couleur principale pour le fond */
+                color: #B8CBD0; /* Couleur du texte principale */
                 font-family: Arial, sans-serif;
                 font-size: 16px;
-            }
-            QLineEdit {
-                background-color: rgba(10, 26, 42, 0.8);
-                color: #e67e22;
-                border: 1px solid #e67e22;
+            }}
+            QLineEdit {{
+                background-color: #709CA7; /* Couleur d'arrière-plan pour les champs de texte */
+                color: #344D59; /* Couleur du texte dans les champs de texte */
+                border: 1px solid #7A90A4; /* Couleur de la bordure */
                 padding: 5px;
-            }
-            QPushButton {
-                background-color: #e67e22;
-                color: #0a1a2a;
+            }}
+            QPushButton {{
+                background-color: #137C8B; /* Couleur d'arrière-plan pour les boutons */
+                color: #B8CBD0; /* Couleur du texte des boutons */
                 border: none;
                 padding: 10px;
                 font-size: 16px;
-            }
-            QPushButton:hover {
-                background-color: #d35400;
-            }
-            QLabel {
+            }}
+            QPushButton:hover {{
+                background-color: #7A90A4; /* Couleur d'arrière-plan au survol */
+            }}
+            QLabel {{
                 font-size: 24px;
                 font-weight: bold;
-                color: #e67e22;
-            }
-            QScrollArea {
-                background-color: rgba(10, 26, 42, 0.8);
-            }
+                color: #B8CBD0; /* Couleur du texte des labels */
+            }}
+            QScrollArea {{
+                background-color: transparent; /* Background of the scroll area is transparent */
+                border: none;
+            }}
+            QScrollBar:vertical {{
+                border: none;
+                background: qlineargradient(
+                    x1: 0, y1: 0, 
+                    x2: 0, y2: 1, 
+                    stop: 0 #709CA7, 
+                    stop: 1 #137C8B
+                );
+                width: 14px;
+                margin: 15px 3px 15px 3px;
+                border-radius: 7px;
+            }}
+            QScrollBar::handle:vertical {{
+                background: #B8CBD0; /* Couleur d'arrière-plan du curseur */
+                border: 2px solid #7A90A4; /* Bordure du curseur */
+                border-radius: 7px;
+                min-height: 20px;
+            }}
+            QScrollBar::handle:vertical:disabled {{
+                background: rgba(30, 60, 114, 0.5); /* Couleur d'arrière-plan du curseur désactivé */
+            }}
+            QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {{
+                background: none;
+                height: 0px;
+            }}
+            QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {{
+                background: none;
+            }}
+            QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical {{
+                border: none;
+                width: 0px;
+                height: 0px;
+                background: none;
+            }}
         """)
+
 
         
     @QtCore.Slot()
@@ -148,13 +188,24 @@ class MainWidget(QtWidgets.QWidget):
 
 
     def sendUserMessage(self):
-            user_message = self.inputQuestion.text()
-            if user_message:
-                self.chatBox.addWidget(QtWidgets.QLabel(f"User: {user_message}"))
-                response_message = self.chatbotResponse(user_message)
-                self.chatBox.addWidget(QtWidgets.QLabel(f"Bot: {response_message}"))
-                self.inputQuestion.clear()
-                self.scrollArea.verticalScrollBar().setValue(self.scrollArea.verticalScrollBar().maximum())
+        user_message = self.inputQuestion.text()
+        if user_message:
+            self.chatBox.addWidget(QtWidgets.QLabel(f"User: {user_message}"))
+            response_message = self.chatbotResponse(user_message)
+            self.chatBox.addWidget(QtWidgets.QLabel(f"Bot: {response_message}"))
+            self.inputQuestion.clear()
+            self.smoothScrollToBottom()
+
+    def smoothScrollToBottom(self):
+        scrollBar = self.scrollArea.verticalScrollBar()
+        animation = QtCore.QPropertyAnimation(scrollBar, b"value")
+        animation.setDuration(500)  # Duration of the animation in milliseconds
+        animation.setStartValue(scrollBar.value())
+        animation.setEndValue(scrollBar.maximum())
+        animation.setEasingCurve(QtCore.QEasingCurve.OutQuad)
+        animation.start()
+        # Keep a reference to the animation object to prevent it from being garbage collected
+        self.scrollAnimation = animation
         
 
     # def mainChat(self):
