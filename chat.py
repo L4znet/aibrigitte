@@ -208,7 +208,7 @@ class MainWidget(QtWidgets.QWidget):
                 max-width: 500%; /* Ajustez si nécessaire */
             """)
             bubble_layout.addWidget(message_label)
-            bubble.setStyleSheet("align-self: flex-end;")
+            # bubble.setStyleSheet("align-self: flex-end;")
         else:
             message_label.setStyleSheet("""
                 background-color: #7A90A4;
@@ -220,7 +220,7 @@ class MainWidget(QtWidgets.QWidget):
                 max-width: 500%; /* Ajustez si nécessaire */
             """)
             bubble_layout.addWidget(message_label)
-            bubble.setStyleSheet("align-self: flex-start;")
+            # bubble.setStyleSheet("align-self: flex-start;")
 
         return bubble
 
