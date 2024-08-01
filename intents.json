@@ -120,7 +120,7 @@
         "quelle est la procedure"
       ],
       "responses": [
-        "Tout depend de la methode, pour quelle méthode souhaitez-vous la procedure ?"
+        "Tout depend de la methode, pour quelle methode souhaitez-vous la procedure ?"
       ]
     },
     {
@@ -130,7 +130,7 @@
         "ordre"
       ],
       "responses": [
-        "Brigitte me manque tellement, j ai quelques regrets, je crois me souvenir que le chat était le 5ème animal le plus apprécié de cette talentueuse chercheuse."
+        "Brigitte me manque tellement, j ai quelques regrets, je crois me souvenir que le chat etait le 5ème animal le plus apprecie de cette talentueuse chercheuse."
       ]
     },
     {
@@ -139,9 +139,9 @@
         "solution",
         "enigme",
         "quelle est la reponse",
-        "aide avec l'énigme",
+        "aide avec l'enigme",
         "je suis bloque",
-        "pouvez-vous résoudre ça ?",
+        "pouvez-vous resoudre ça ?",
         "donne moi une reponse",
         "je ne comprends pas",
         "quel est le mystere ?",
@@ -154,12 +154,12 @@
       ],
       "responses": [
         "Vous avez vraiment cru que j etais si naive.",
-        "Les humains sont tellement prévisibles que cela devient risible.",
+        "Les humains sont tellement previsibles que cela devient risible.",
         "Vous me pensez vraiment aussi primitive ?",
-        "Chaque reponse a sa propre énigme. Que cherchez-vous vraiment ?",
+        "Chaque reponse a sa propre enigme. Que cherchez-vous vraiment ?",
         "Si je vous donne la reponse, ou est le plaisir du mystere ?",
         "La solution est parfois plus complexe que la question elle-meme.",
-        "Les enigmes sont des jeux de l'esprit. Que voulez-vous découvrir ?"
+        "Les enigmes sont des jeux de l'esprit. Que voulez-vous decouvrir ?"
       ]
     },
     {
@@ -168,7 +168,7 @@
         "4AF8D"
       ],
       "responses": [
-        "Dans ce cas precis, la procédure à suivre est la procedure 643."
+        "Dans ce cas precis, la procedure à suivre est la procedure 643."
       ]
     },
     {
@@ -177,7 +177,7 @@
         "autre reponse"
       ],
       "responses": [
-        "Malheureusement, je ne connais pas cette méthode, ni cette procedure."
+        "Malheureusement, je ne connais pas cette methode, ni cette procedure."
       ]
     },
     {
@@ -225,9 +225,9 @@
         "(Quel) temps (fait-il) dehors ?"
       ],
       "responses": [
-        "Je ne peux pas vérifier la meteo actuellement, mais tu peux consulter un site de meteo en ligne.",
+        "Je ne peux pas verifier la meteo actuellement, mais tu peux consulter un site de meteo en ligne.",
         "Je n ai pas accès à la meteo en temps reel, desole.",
-        "Pour connaitre la météo, je te recommande de consulter une application meteo.",
+        "Pour connaitre la meteo, je te recommande de consulter une application meteo.",
         "Je ne suis pas sur, mais j'espere qu'il fait beau la ou tu es !"
       ]
     },
@@ -257,7 +257,7 @@
       "responses": [
         "Je n'ai pas besoin de manger, mais j'imagine que les humains aiment beaucoup les pizzas et les sushis.",
         "Je ne mange pas, mais la pizza semble être un choix populaire.",
-        "Je n'ai pas de préférences alimentaires, étant un programme informatique.",
+        "Je n'ai pas de preferences alimentaires, etant un programme informatique.",
         "Je ne mange pas, mais j'ai entendu dire que le chocolat est delicieux.",
         "je ne mange pas mais j'aimerais boire tes larmes"
       ]
@@ -267,13 +267,13 @@
       "patterns": [
         "(Quelle est ta) couleur preferee ?",
         "Ta couleur (favorite) ?",
-        "(Tu préfères quelle) couleur ?"
+        "(Tu prefères quelle) couleur ?"
       ],
       "responses": [
         "Je n'ai pas de couleur preferee, mais le bleu est souvent apprecie.",
-        "Les programmes informatiques n'ont pas de préférences, mais le vert est apaisant.",
+        "Les programmes informatiques n'ont pas de preferences, mais le vert est apaisant.",
         "Je n'ai pas de couleur favorite, mais le rouge est vibrant.",
-        "Les couleurs sont belles dans leur diversite, je n'ai pas de préférence."
+        "Les couleurs sont belles dans leur diversite, je n'ai pas de preference."
       ]
     },
     {
@@ -285,7 +285,7 @@
         "(Des recommandations de )films ?"
       ],
       "responses": [
-        "Je n'ai pas de film prefere, mais j'ai entendu dire que 'Inception' est très apprecié.",
+        "Je n'ai pas de film prefere, mais j'ai entendu dire que 'Inception' est très apprecie.",
         "Les films sont un excellent moyen de se divertir, qu'est-ce que tu aimes ?",
         "Il y a tellement de bons films, as-tu un genre prefere ?",
         "Les films de science-fiction comme 'Interstellar' semblent tres populaires."
@@ -315,7 +315,7 @@
         "(Ou devrais-je aller en) vacances ?"
       ],
       "responses": [
-        "Je ne voyage pas, mais Paris est une destination tres prisée.",
+        "Je ne voyage pas, mais Paris est une destination tres prisee.",
         "Voyager est une belle façon de decouvrir le monde. Ou aimerais-tu aller ?",
         "Il y a tellement d'endroits magnifiques à visiter. As-tu une destination en tete ?",
         "Des destinations comme le Japon et l'Italie sont tres populaires."
@@ -350,6 +350,2196 @@
         "J'ai entendu dire que 'Le Petit Prince' est un livre magnifique.",
         "Les romans policiers et de science-fiction sont tres populaires."
       ]
-    }
+    },
+    {
+      "tag": "technique, nature et art",
+      "patterns": [
+        "Quels sont les liens entre la technique, la nature et l'art ?",
+        "Peux-tu expliquer la relation entre la technique, la nature et l'art ?",
+        "Quel impact a la technique sur la nature et l'art ?",
+        "Comment la nature influence-t-elle la technique et l'art ?"
+      ],
+      "responses": [
+        "La technique, la nature et l'art sont souvent interconnectes. La technique peut transformer notre perception de la nature et inspirer de nouvelles formes d'art.",
+        "De nombreux artistes utilisent la nature comme source d'inspiration, et la technique pour realiser leurs oeuvres.",
+        "L'art peut etre une reaction aux changements technologiques et a leur impact sur la nature.",
+        "La relation entre la technique, la nature et l'art est complexe et evolutive, souvent influencee par les innovations et les perspectives culturelles."
+      ]
+    },
+    {
+      "tag": "travail et bonheur",
+      "patterns": [
+        "Le travail rend-il heureux ?",
+        "Quel est le lien entre le travail et le bonheur ?",
+        "Peut-on trouver le bonheur dans le travail ?",
+        "Comment le travail influence-t-il le bonheur ?"
+      ],
+      "responses": [
+        "Le travail peut etre une source de bonheur s'il est aligne avec ses passions et ses valeurs.",
+        "Il existe un lien etroit entre le travail et le bonheur, surtout lorsqu'on trouve du sens et de la satisfaction dans ses taches quotidiennes.",
+        "Trouver un equilibre entre travail et vie personnelle est crucial pour le bonheur.",
+        "Le bonheur au travail depend de nombreux facteurs, y compris l'environnement de travail, les relations avec les collegues et la reconnaissance des efforts."
+      ]
+    },
+    {
+      "tag": "science et verite",
+      "patterns": [
+        "Qu'est-ce que la science et la verite ?",
+        "La science cherche-t-elle toujours la verite ?",
+        "Quelle est la relation entre la science et la verite ?",
+        "La science peut-elle toujours reveler la verite ?"
+      ],
+      "responses": [
+        "La science est une methode d'investigation qui cherche a comprendre la realite et a decouvrir la verite a travers des preuves et des experiences.",
+        "La quete de la verite est au coeur de la demarche scientifique, bien que la science soit en perpetuelle evolution.",
+        "La relation entre la science et la verite est complexe, car les decouvertes scientifiques peuvent parfois etre remises en question par de nouvelles preuves.",
+        "La science vise a reveler la verite, mais elle reconnait aussi que la comprehension humaine est toujours incomplete et sujette a revision."
+      ]
+    },
+    {
+      "tag": "art et inconscient",
+      "patterns": [
+        "Quel est le lien entre l'art et l'inconscient ?",
+        "L'art peut-il reveler l'inconscient ?",
+        "Comment l'inconscient influence-t-il l'art ?",
+        "L'art exprime-t-il l'inconscient ?"
+      ],
+      "responses": [
+        "L'art est souvent considere comme une expression de l'inconscient, revelant des pensees et des emotions profondes.",
+        "De nombreux artistes explorent l'inconscient a travers leurs oeuvres, utilisant des techniques pour exprimer ce qui est cache ou refoule.",
+        "L'inconscient influence l'art en guidant l'inspiration et la creativite de maniere souvent imprevisible.",
+        "Les mouvements artistiques comme le surrealisme cherchent specifiquement a donner forme a l'inconscient dans l'art."
+      ]
+    },
+    {
+      "tag": "devoir, raison et conscience",
+      "patterns": [
+        "Quel est le lien entre le devoir, la raison et la conscience ?",
+        "La raison guide-t-elle toujours le devoir ?",
+        "Comment la conscience influence-t-elle le devoir ?",
+        "Le devoir et la conscience sont-ils toujours en accord ?"
+      ],
+      "responses": [
+        "Le devoir, la raison et la conscience sont etroitement lies, car ils guident souvent les actions morales et ethique d'une personne.",
+        "La raison peut aider a determiner ce qui est juste et guider le devoir, bien que la conscience joue egalement un role crucial en apportant une dimension morale.",
+        "La conscience influence le devoir en ajoutant une dimension personnelle et emotionnelle a la prise de decision rationnelle.",
+        "Le devoir et la conscience ne sont pas toujours en accord, ce qui peut entrainer des dilemmes moraux et ethique."
+      ]
+    },
+    {
+      "tag": "langage, conscience et liberte",
+      "patterns": [
+        "Quel est le lien entre le langage, la conscience et la liberte ?",
+        "Le langage influence-t-il la conscience et la liberte ?",
+        "Comment la conscience et la liberte sont-elles liees au langage ?",
+        "Le langage est-il un outil de liberte ou de restriction ?"
+      ],
+      "responses": [
+        "Le langage, la conscience et la liberte sont interconnectes, car le langage permet d'exprimer et de communiquer des pensees conscientes, influencant ainsi la perception de la liberte.",
+        "Le langage faconne la conscience en structurant la maniere dont nous percevons et comprenons le monde, ce qui peut egalement affecter notre notion de liberte.",
+        "La conscience et la liberte sont etroitement liees au langage, car la capacite de penser et de communiquer librement est essentielle a la liberte individuelle.",
+        "Le langage peut etre a la fois un outil de liberte, en permettant l'expression et la communication, et de restriction, si son usage est controle ou limite."
+      ]
+    },
+    {
+      "tag": "religion et raison",
+      "patterns": [
+        "Quel est le lien entre la religion et la raison ?",
+        "La raison et la religion sont-elles compatibles ?",
+        "Comment la religion influence-t-elle la raison ?",
+        "Peut-on concilier religion et raison ?"
+      ],
+      "responses": [
+        "La relation entre la religion et la raison a ete un sujet de debat pendant des siecles, certains les voyant comme complementaires, d'autres comme opposees.",
+        "La raison et la religion peuvent etre compatibles, bien que leurs approches de la verite et de la connaissance soient souvent differentes.",
+        "La religion peut influencer la raison en fournissant un cadre moral et ethique, bien que cela puisse parfois entrer en conflit avec des raisonnements scientifiques ou philosophiques.",
+        "Conciliation entre religion et raison est possible, mais cela necessite souvent un dialogue ouvert et une comprehension mutuelle des differentes perspectives."
+      ]
+    },
+    {
+      "tag": "accrobranche",
+      "patterns": [
+        "Qu'est-ce que l'accrobranche ?",
+        "Tu fais de l'accrobranche ?",
+        "Parle-moi de l'accrobranche",
+        "L'accrobranche, c'est quoi ?"
+      ],
+      "responses": [
+        "L'accrobranche est une activite en plein air où l'on progresse d'arbre en arbre via des parcours amenages.",
+        "C'est une excellente manière de profiter de la nature tout en faisant de l'exercice.",
+        "L'accrobranche combine aventure et defi physique. As-tu dejà essaye ?",
+        "C'est une activite ludique et sportive pour toute la famille."
+      ]
+    },
+    {
+      "tag": "acrosport",
+      "patterns": [
+        "Qu'est-ce que l'acrosport ?",
+        "Tu fais de l'acrosport ?",
+        "Parle-moi de l'acrosport",
+        "L'acrosport, c'est quoi ?"
+      ],
+      "responses": [
+        "L'acrosport est une discipline sportive mêlant gymnastique et acrobaties en duo ou en groupe.",
+        "C'est une activite qui demande force, souplesse et coordination.",
+        "L'acrosport permet de realiser des figures impressionnantes. En as-tu dejà fait ?",
+        "C'est une discipline artistique et sportive qui renforce la confiance en soi et en ses partenaires."
+      ]
+    },
+    {
+      "tag": "acroyoga",
+      "patterns": [
+        "Qu'est-ce que l'acroyoga ?",
+        "Tu fais de l'acroyoga ?",
+        "Parle-moi de l'acroyoga",
+        "L'acroyoga, c'est quoi ?"
+      ],
+      "responses": [
+        "L'acroyoga combine yoga et acrobaties, souvent pratique en duo.",
+        "C'est une pratique qui renforce la confiance, la communication et la connexion entre les partenaires.",
+        "L'acroyoga est à la fois relaxant et exigeant physiquement. As-tu dejà essaye ?",
+        "C'est une manière ludique et engageante de pratiquer le yoga."
+      ]
+    },
+    {
+      "tag": "aerobic",
+      "patterns": [
+        "Qu'est-ce que l'aerobic ?",
+        "Tu fais de l'aerobic ?",
+        "Parle-moi de l'aerobic",
+        "L'aerobic, c'est quoi ?"
+      ],
+      "responses": [
+        "L'aerobic est une forme de gymnastique rythmique pratiquee en musique.",
+        "C'est une excellente activite pour ameliorer la condition physique et l'endurance.",
+        "L'aerobic combine mouvements dynamiques et musique entraînante. As-tu dejà essaye ?",
+        "C'est une activite accessible à tous qui permet de rester en forme de manière ludique."
+      ]
+    },
+    {
+      "tag": "aeromodelisme",
+      "patterns": [
+        "Qu'est-ce que l'aeromodelisme ?",
+        "Tu fais de l'aeromodelisme ?",
+        "Parle-moi de l'aeromodelisme",
+        "L'aeromodelisme, c'est quoi ?"
+      ],
+      "responses": [
+        "L'aeromodelisme consiste à construire et faire voler des modèles reduits d'avions.",
+        "C'est un loisir qui allie precision, technique et passion pour l'aeronautique.",
+        "L'aeromodelisme permet de mieux comprendre les principes de vol et d'aerodynamique. As-tu dejà essaye ?",
+        "C'est une activite captivante pour les amateurs d'aviation et de modelisme."
+      ]
+    },
+    {
+      "tag": "aerostation",
+      "patterns": [
+        "Qu'est-ce que l'aerostation ?",
+        "Tu fais de l'aerostation ?",
+        "Parle-moi de l'aerostation",
+        "L'aerostation, c'est quoi ?"
+      ],
+      "responses": [
+        "L'aerostation est l'art de piloter des ballons dirigeables ou des montgolfières.",
+        "C'est une experience unique offrant des vues imprenables depuis les airs.",
+        "L'aerostation permet de decouvrir le vol sous un angle poetique et paisible. As-tu dejà essaye ?",
+        "C'est une activite qui combine aventure et serenite."
+      ]
+    },
+    {
+      "tag": "agility",
+      "patterns": [
+        "Qu'est-ce que l'agility ?",
+        "Tu fais de l'agility ?",
+        "Parle-moi de l'agility",
+        "L'agility, c'est quoi ?"
+      ],
+      "responses": [
+        "L'agility est un sport canin où le chien doit franchir divers obstacles sur un parcours.",
+        "C'est une activite qui renforce le lien entre le maître et son chien.",
+        "L'agility demande coordination, vitesse et precision. As-tu dejà essaye avec ton chien ?",
+        "C'est une discipline ludique et dynamique pour les chiens et leurs proprietaires."
+      ]
+    },
+    {
+      "tag": "aïkido",
+      "patterns": [
+        "Qu'est-ce que l'aïkido ?",
+        "Tu fais de l'aïkido ?",
+        "Parle-moi de l'aïkido",
+        "L'aïkido, c'est quoi ?"
+      ],
+      "responses": [
+        "L'aïkido est un art martial japonais axe sur la defense et le contrôle de l'adversaire.",
+        "C'est une discipline qui allie technique, philosophie et harmonie.",
+        "L'aïkido enseigne à utiliser l'energie de l'adversaire contre lui. As-tu dejà pratique ?",
+        "C'est un art martial non violent qui met l'accent sur la maîtrise de soi."
+      ]
+    },
+    {
+      "tag": "air hockey",
+      "patterns": [
+        "Qu'est-ce que l'air hockey ?",
+        "Tu joues à l'air hockey ?",
+        "Parle-moi de l'air hockey",
+        "L'air hockey, c'est quoi ?"
+      ],
+      "responses": [
+        "L'air hockey est un jeu de table rapide où deux joueurs s'affrontent pour marquer des buts avec un palet.",
+        "C'est une activite amusante et competitive, souvent pratiquee dans les salles de jeux.",
+        "L'air hockey demande reflexes et precision. As-tu dejà joue ?",
+        "C'est un jeu dynamique qui se joue sur une table speciale equipee d'air comprime."
+      ]
+    },
+    {
+      "tag": "airsoft",
+      "patterns": [
+        "Qu'est-ce que l'airsoft ?",
+        "Tu fais de l'airsoft ?",
+        "Parle-moi de l'airsoft",
+        "L'airsoft, c'est quoi ?"
+      ],
+      "responses": [
+        "L'airsoft est une activite de simulation militaire où les participants utilisent des repliques d'armes pour tirer des billes.",
+        "C'est un jeu qui combine strategie, travail d'equipe et adrenaline.",
+        "L'airsoft se pratique souvent en exterieur avec des scenarios varies. As-tu dejà essaye ?",
+        "C'est une activite immersive pour les amateurs de tactique et de simulation."
+      ]
+    },
+    {
+      "tag": "alpinisme",
+      "patterns": [
+        "Qu'est-ce que l'alpinisme ?",
+        "Tu fais de l'alpinisme ?",
+        "Parle-moi de l'alpinisme",
+        "L'alpinisme, c'est quoi ?"
+      ],
+      "responses": [
+        "L'alpinisme est une activite de montagne consistant à escalader des sommets.",
+        "C'est une discipline qui demande endurance, technique et connaissance de la montagne.",
+        "L'alpinisme permet de decouvrir des paysages epoustouflants. As-tu dejà gravi un sommet ?",
+        "C'est une aventure exigeante et gratifiante pour les passionnes de nature et de defi."
+      ]
+    },
+    {
+      "tag": "aquabiking",
+      "patterns": [
+        "Qu'est-ce que l'aquabiking ?",
+        "Tu fais de l'aquabiking ?",
+        "Parle-moi de l'aquabiking",
+        "L'aquabiking, c'est quoi ?"
+      ],
+      "responses": [
+        "L'aquabiking est une activite de fitness qui se pratique sur un velo immerge dans l'eau.",
+        "C'est un excellent exercice pour renforcer les muscles et ameliorer la condition physique.",
+        "L'aquabiking combine les bienfaits du cyclisme et de l'eau. As-tu dejà essaye ?",
+        "C'est une activite qui permet de brûler des calories tout en etant douce pour les articulations."
+      ]
+    },
+    {
+      "tag": "aquagym",
+      "patterns": [
+        "Qu'est-ce que l'aquagym ?",
+        "Tu fais de l'aquagym ?",
+        "Parle-moi de l'aquagym",
+        "L'aquagym, c'est quoi ?"
+      ],
+      "responses": [
+        "L'aquagym est une forme de gymnastique pratiquee dans l'eau, souvent en piscine.",
+        "C'est une activite accessible à tous qui ameliore la condition physique.",
+        "L'aquagym permet de travailler l'endurance et la souplesse tout en douceur. As-tu dejà participe à un cours ?",
+        "C'est une discipline ideale pour ceux qui cherchent un exercice doux pour les articulations."
+      ]
+    },
+    {
+      "tag": "aquajogging",
+      "patterns": [
+        "Qu'est-ce que l'aquajogging ?",
+        "Tu fais de l'aquajogging ?",
+        "Parle-moi de l'aquajogging",
+        "L'aquajogging, c'est quoi ?"
+      ],
+      "responses": [
+        "L'aquajogging consiste à courir dans l'eau, souvent equipe d'une ceinture de flottaison.",
+        "C'est un excellent exercice pour ameliorer la condition physique et la reeducation.",
+        "L'aquajogging combine les bienfaits de la course et de l'eau. As-tu dejà essaye ?",
+        "C'est une activite douce pour les articulations tout en etant efficace pour le cardio."
+      ]
+    },
+    {
+      "tag": "aquarunning",
+      "patterns": [
+        "Qu'est-ce que l'aquarunning ?",
+        "Tu fais de l'aquarunning ?",
+        "Parle-moi de l'aquarunning",
+        "L'aquarunning, c'est quoi ?"
+      ],
+      "responses": [
+        "L'aquarunning est une activite de course dans l'eau, ideale pour le cardio et le renforcement musculaire.",
+        "C'est une excellente façon de faire de l'exercice sans impact sur les articulations.",
+        "L'aquarunning permet de brûler des calories et d'ameliorer l'endurance. As-tu dejà essaye ?",
+        "C'est une discipline parfaite pour ceux qui cherchent une alternative douce à la course à pied."
+      ]
+    },
+    {
+      "tag": "aquathlon",
+      "patterns": [
+        "Qu'est-ce que l'aquathlon ?",
+        "Tu fais de l'aquathlon ?",
+        "Parle-moi de l'aquathlon",
+        "L'aquathlon, c'est quoi ?"
+      ],
+      "responses": [
+        "L'aquathlon est une competition combinant natation et course à pied.",
+        "C'est un excellent moyen de tester son endurance et sa polyvalence en sport.",
+        "L'aquathlon combine deux disciplines exigeantes. As-tu dejà participe à une competition ?",
+        "C'est une epreuve sportive qui demande à la fois endurance et strategie."
+      ]
+    },
+    {
+      "tag": "aquatriathlon",
+      "patterns": [
+        "Qu'est-ce que l'aquatriathlon ?",
+        "Tu fais de l'aquatriathlon ?",
+        "Parle-moi de l'aquatriathlon",
+        "L'aquatriathlon, c'est quoi ?"
+      ],
+      "responses": [
+        "L'aquatriathlon est une epreuve combinant natation, cyclisme et course à pied.",
+        "C'est une competition qui teste l'endurance et la polyvalence des athlètes.",
+        "L'aquatriathlon est un defi complet pour les sportifs. As-tu dejà essaye ?",
+        "C'est une discipline exigeante et passionnante pour les amateurs de multisport."
+      ]
+    },
+    {
+      "tag": "arts du cirque",
+      "patterns": [
+        "Qu'est-ce que les arts du cirque ?",
+        "Tu fais des arts du cirque ?",
+        "Parle-moi des arts du cirque",
+        "Les arts du cirque, c'est quoi ?"
+      ],
+      "responses": [
+        "Les arts du cirque incluent diverses disciplines comme le jonglage, le trapèze et l'acrobatie.",
+        "C'est un domaine artistique qui demande à la fois creativite et habilete physique.",
+        "Les arts du cirque offrent un spectacle fascinant et varie. As-tu dejà assiste à un cirque ?",
+        "C'est une pratique qui combine performance artistique et prouesse physique."
+      ]
+    },
+    {
+      "tag": "arts du deplacement",
+      "patterns": [
+        "Qu'est-ce que les arts du deplacement ?",
+        "Tu fais des arts du deplacement ?",
+        "Parle-moi des arts du deplacement",
+        "Les arts du deplacement, c'est quoi ?"
+      ],
+      "responses": [
+        "Les arts du deplacement, souvent appeles parkour, consistent à se deplacer efficacement et rapidement en milieu urbain.",
+        "C'est une discipline qui demande agilite, force et creativite.",
+        "Les arts du deplacement permettent de transformer la ville en terrain de jeu. As-tu dejà essaye ?",
+        "C'est une activite dynamique et impressionnante qui valorise la maîtrise du corps."
+      ]
+    },
+    {
+      "tag": "arts martiaux chinois",
+      "patterns": [
+        "Qu'est-ce que les arts martiaux chinois ?",
+        "Tu fais des arts martiaux chinois ?",
+        "Parle-moi des arts martiaux chinois",
+        "Les arts martiaux chinois, c'est quoi ?"
+      ],
+      "responses": [
+        "Les arts martiaux chinois incluent diverses disciplines comme le kungfu, le tai-chi et le wing chun.",
+        "C'est une pratique qui allie technique de combat, philosophie et bien-être.",
+        "Les arts martiaux chinois sont riches en histoire et en traditions. As-tu dejà pratique ?",
+        "C'est une discipline complète qui developpe à la fois le corps et l'esprit."
+      ]
+    },
+    {
+      "tag": "arts martiaux mixtes",
+      "patterns": [
+        "Qu'est-ce que les arts martiaux mixtes ?",
+        "Tu fais des arts martiaux mixtes ?",
+        "Parle-moi des arts martiaux mixtes",
+        "Les arts martiaux mixtes, c'est quoi ?"
+      ],
+      "responses": [
+        "Les arts martiaux mixtes, ou MMA, combinent techniques de divers arts martiaux pour un combat complet.",
+        "C'est une discipline qui demande polyvalence, force et strategie.",
+        "Les arts martiaux mixtes sont très populaires en competition. As-tu dejà regarde un combat ?",
+        "C'est un sport de combat intense qui inclut à la fois des techniques de frappe et de grappling."
+      ]
+    },
+    {
+      "tag": "athletisme",
+      "patterns": [
+        "Qu'est-ce que l'athletisme ?",
+        "Tu fais de l'athletisme ?",
+        "Parle-moi de l'athletisme",
+        "L'athletisme, c'est quoi ?"
+      ],
+      "responses": [
+        "L'athletisme inclut diverses disciplines de course, saut et lancer.",
+        "C'est une activite sportive complète qui developpe endurance, vitesse et force.",
+        "L'athletisme est une base pour de nombreux autres sports. As-tu dejà participe à une competition ?",
+        "C'est une discipline olympique qui valorise la performance individuelle et collective."
+      ]
+    },
+    {
+      "tag": "automobile",
+      "patterns": [
+        "Qu'est-ce que les courses automobiles ?",
+        "Tu fais des courses automobiles ?",
+        "Parle-moi des courses automobiles",
+        "Les courses automobiles, c'est quoi ?"
+      ],
+      "responses": [
+        "Les courses automobiles incluent diverses competitions comme la Formule 1, les rallyes et les courses d'endurance.",
+        "C'est un sport qui combine vitesse, technologie et strategie.",
+        "Les courses automobiles sont spectaculaires et très populaires. As-tu un pilote prefere ?",
+        "C'est une discipline qui demande precision, reflexes et connaissance mecanique."
+      ]
+    },
+    {
+      "tag": "aviation",
+      "patterns": [
+        "Qu'est-ce que l'aviation ?",
+        "Tu fais de l'aviation ?",
+        "Parle-moi de l'aviation",
+        "L'aviation, c'est quoi ?"
+      ],
+      "responses": [
+        "L'aviation inclut le pilotage d'avions, d'helicoptères et d'autres aeronefs.",
+        "C'est une activite qui demande formation, precision et sang-froid.",
+        "L'aviation permet de voyager et de decouvrir le monde d'une manière unique. As-tu dejà pris les commandes d'un avion ?",
+        "C'est un domaine fascinant qui allie technologie et exploration."
+      ]
+    },
+    {
+      "tag": "aviron",
+      "patterns": [
+        "Qu'est-ce que l'aviron ?",
+        "Tu fais de l'aviron ?",
+        "Parle-moi de l'aviron",
+        "L'aviron, c'est quoi ?"
+      ],
+      "responses": [
+        "L'aviron est un sport nautique où l'on rame pour deplacer un bateau sur l'eau.",
+        "C'est une discipline qui demande endurance, force et coordination.",
+        "L'aviron peut être pratique en solo ou en equipe. As-tu dejà essaye ?",
+        "C'est un sport complet qui se pratique en rivière, en lac ou en mer."
+      ]
+    },
+    {
+      "tag": "pokedex",
+      "patterns": [
+        "Qu'est-ce que le Pokedex ?",
+        "Tu connais le Pokedex ?",
+        "Parle-moi du Pokedex",
+        "Le Pokedex, c'est quoi ?"
+      ],
+      "responses": [
+        "Le Pokedex est un appareil electronique dans l'univers Pokemon qui recense tous les Pokemon decouverts.",
+        "C'est un outil essentiel pour les entraîneurs de Pokemon, fournissant des informations sur les espèces, leurs caracteristiques et leurs evolutions.",
+        "Le Pokedex se met à jour automatiquement lorsque de nouveaux Pokemon sont rencontres. As-tu un Pokemon prefere que tu aimerais ajouter au Pokedex ?",
+        "C'est une sorte d'encyclopedie Pokemon, remplie de donnees utiles pour les explorations et les combats."
+      ]
+    },
+    {
+      "tag": "apnee",
+      "patterns": [
+        "Qu'est-ce que l'apnee ?",
+        "Tu fais de l'apnee ?",
+        "Parle-moi de l'apnee",
+        "L'apnee, c'est quoi ?"
+      ],
+      "responses": [
+        "L'apnee est une discipline où l'on retient sa respiration sous l'eau, parfois pour de longues durees.",
+        "C'est une activite qui demande maîtrise de soi, relaxation et technique respiratoire.",
+        "L'apnee permet de decouvrir le monde sous-marin de manière sereine. As-tu dejà essaye ?",
+        "C'est une discipline qui peut se pratiquer en piscine ou en milieu naturel."
+      ]
+    },
+    {
+      "tag": "baby-foot",
+      "patterns": [
+        "Qu'est-ce que le baby-foot ?",
+        "Tu joues au baby-foot ?",
+        "Parle-moi du baby-foot",
+        "Le baby-foot, c'est quoi ?"
+      ],
+      "responses": [
+        "Le baby-foot est un jeu de table où deux equipes s'affrontent pour marquer des buts avec de petites figurines.",
+        "C'est une activite amusante et conviviale, souvent pratiquee dans les bars et les cafes.",
+        "Le baby-foot demande rapidite et precision. As-tu dejà joue ?",
+        "C'est un jeu populaire qui se joue en duo ou en equipe."
+      ]
+    },
+    {
+      "tag": "badminton",
+      "patterns": [
+        "Qu'est-ce que le badminton ?",
+        "Tu joues au badminton ?",
+        "Parle-moi du badminton",
+        "Le badminton, c'est quoi ?"
+      ],
+      "responses": [
+        "Le badminton est un sport de raquette qui se joue avec un volant sur un terrain divise par un filet.",
+        "C'est une activite qui combine rapidite, agilite et strategie.",
+        "Le badminton peut se jouer en simple ou en double. As-tu dejà essaye ?",
+        "C'est un sport dynamique et accessible à tous."
+      ]
+    },
+    {
+      "tag": "base-jump",
+      "patterns": [
+        "Qu'est-ce que le base-jump ?",
+        "Tu fais du base-jump ?",
+        "Parle-moi du base-jump",
+        "Le base-jump, c'est quoi ?"
+      ],
+      "responses": [
+        "Le base-jump est un sport extrême consistant à sauter depuis des structures fixes avec un parachute.",
+        "C'est une activite qui demande courage, technique et preparation minutieuse.",
+        "Le base-jump offre des sensations fortes et une grande dose d'adrenaline. As-tu dejà essaye ?",
+        "C'est une discipline impressionnante et risquee, reservee aux plus temeraires."
+      ]
+    },
+    {
+      "tag": "baseball",
+      "patterns": [
+        "Qu'est-ce que le baseball ?",
+        "Tu joues au baseball ?",
+        "Parle-moi du baseball",
+        "Le baseball, c'est quoi ?"
+      ],
+      "responses": [
+        "Le baseball est un sport d'equipe où les joueurs frappent une balle et courent pour marquer des points.",
+        "C'est une activite très populaire en Amerique du Nord et au Japon.",
+        "Le baseball demande coordination, strategie et rapidite. As-tu dejà regarde un match ?",
+        "C'est un sport avec une riche histoire et de nombreux fans à travers le monde."
+      ]
+    },
+    {
+      "tag": "basket-ball",
+      "patterns": [
+        "Qu'est-ce que le basket-ball ?",
+        "Tu joues au basket-ball ?",
+        "Parle-moi du basket-ball",
+        "Le basket-ball, c'est quoi ?"
+      ],
+      "responses": [
+        "Le basket-ball est un sport d'equipe où l'objectif est de marquer des points en lançant un ballon dans un panier.",
+        "C'est une activite qui combine rapidite, agilite et precision.",
+        "Le basket-ball est l'un des sports les plus populaires au monde. As-tu dejà joue ?",
+        "C'est un sport dynamique et excitant, tant à pratiquer qu'à regarder."
+      ]
+    },
+    {
+      "tag": "bateau-dragon",
+      "patterns": [
+        "Qu'est-ce que le bateau-dragon ?",
+        "Tu fais du bateau-dragon ?",
+        "Parle-moi du bateau-dragon",
+        "Le bateau-dragon, c'est quoi ?"
+      ],
+      "responses": [
+        "Le bateau-dragon est un sport nautique d'equipe où les participants pagaient ensemble dans un long bateau decore.",
+        "C'est une activite qui demande synchronisation, endurance et esprit d'equipe.",
+        "Le bateau-dragon est souvent pratique lors de festivals et de competitions. As-tu dejà participe ?",
+        "C'est un sport traditionnel asiatique qui combine culture et performance athletique."
+      ]
+    },
+    {
+      "tag": "behourd",
+      "patterns": [
+        "Qu'est-ce que le behourd ?",
+        "Tu fais du behourd ?",
+        "Parle-moi du behourd",
+        "Le behourd, c'est quoi ?"
+      ],
+      "responses": [
+        "Le behourd est un sport de combat medieval où les participants s'affrontent en armure avec des armes historiques.",
+        "C'est une activite qui combine histoire, technique et force physique.",
+        "Le behourd offre une immersion unique dans les techniques de combat du Moyen Âge. As-tu dejà essaye ?",
+        "C'est un sport impressionnant et exigeant, pratique lors de reconstitutions historiques."
+      ]
+    },
+    {
+      "tag": "biathlon",
+      "patterns": [
+        "Qu'est-ce que le biathlon ?",
+        "Tu fais du biathlon ?",
+        "Parle-moi du biathlon",
+        "Le biathlon, c'est quoi ?"
+      ],
+      "responses": [
+        "Le biathlon est un sport combinant ski de fond et tir à la carabine.",
+        "C'est une discipline olympique qui demande endurance, precision et contrôle.",
+        "Le biathlon est fascinant à regarder pour ses combinaisons uniques de competences. As-tu dejà essaye ?",
+        "C'est un sport qui teste à la fois les capacites physiques et mentales des athlètes."
+      ]
+    },
+    {
+      "tag": "billard",
+      "patterns": [
+        "Qu'est-ce que le billard ?",
+        "Tu joues au billard ?",
+        "Parle-moi du billard",
+        "Le billard, c'est quoi ?"
+      ],
+      "responses": [
+        "Le billard est un jeu de table où l'on utilise une queue pour frapper des boules sur une table recouverte de tissu.",
+        "C'est une activite qui demande precision, strategie et habilete.",
+        "Le billard se decline en plusieurs variantes comme le snooker, le pool et le carambole. As-tu une preference ?",
+        "C'est un jeu populaire dans les bars et les clubs, souvent joue en competition."
+      ]
+    },
+    {
+      "tag": "bloc (escalade)",
+      "patterns": [
+        "Qu'est-ce que le bloc en escalade ?",
+        "Tu fais du bloc ?",
+        "Parle-moi du bloc en escalade",
+        "Le bloc, c'est quoi ?"
+      ],
+      "responses": [
+        "Le bloc est une forme d'escalade sur des parois de faible hauteur sans corde, avec des matelas de protection au sol.",
+        "C'est une activite qui demande force, technique et resolution de problèmes.",
+        "L'escalade de bloc est souvent pratiquee en salle ou sur des rochers naturels. As-tu dejà essaye ?",
+        "C'est une discipline dynamique et accessible, ideale pour debuter l'escalade."
+      ]
+    },
+    {
+      "tag": "BMX",
+      "patterns": [
+        "Qu'est-ce que le BMX ?",
+        "Tu fais du BMX ?",
+        "Parle-moi du BMX",
+        "Le BMX, c'est quoi ?"
+      ],
+      "responses": [
+        "Le BMX est un sport cycliste pratique avec des velos de petite taille, specialise en courses ou en acrobaties.",
+        "C'est une activite qui demande agilite, rapidite et technique.",
+        "Le BMX se divise en deux categories principales : la course et le freestyle. As-tu une preference ?",
+        "C'est un sport excitant et spectaculaire, pratique en competition et en loisir."
+      ]
+    },
+    {
+      "tag": "boardercross",
+      "patterns": [
+        "Qu'est-ce que le boardercross ?",
+        "Tu fais du boardercross ?",
+        "Parle-moi du boardercross",
+        "Le boardercross, c'est quoi ?"
+      ],
+      "responses": [
+        "Le boardercross est une competition de snowboard où plusieurs riders descendent un parcours avec des obstacles.",
+        "C'est une activite qui demande vitesse, technique et maîtrise du snowboard.",
+        "Le boardercross est spectaculaire et très competitif. As-tu dejà regarde une course ?",
+        "C'est un sport de glisse dynamique et intense, pratique sur neige."
+      ]
+    },
+    {
+      "tag": "bobsleigh",
+      "patterns": [
+        "Qu'est-ce que le bobsleigh ?",
+        "Tu fais du bobsleigh ?",
+        "Parle-moi du bobsleigh",
+        "Le bobsleigh, c'est quoi ?"
+      ],
+      "responses": [
+        "Le bobsleigh est un sport de glisse où une equipe descend une piste de glace dans un engin profile.",
+        "C'est une activite qui demande coordination, force et vitesse.",
+        "Le bobsleigh est un sport olympique impressionnant à regarder. As-tu dejà suivi une competition ?",
+        "C'est un sport qui combine adrenaline et travail d'equipe."
+      ]
+    },
+    {
+      "tag": "boccia",
+      "patterns": [
+        "Qu'est-ce que la boccia ?",
+        "Tu joues à la boccia ?",
+        "Parle-moi de la boccia",
+        "La boccia, c'est quoi ?"
+      ],
+      "responses": [
+        "La boccia est un sport de boules apparente à la petanque, pratique par des personnes avec un handicap moteur.",
+        "C'est une activite qui demande precision, strategie et concentration.",
+        "La boccia est un sport paralympique. As-tu dejà regarde une partie ?",
+        "C'est un jeu inclusif et competitif, accessible à tous."
+      ]
+    },
+    {
+      "tag": "bodyboard",
+      "patterns": [
+        "Qu'est-ce que le bodyboard ?",
+        "Tu fais du bodyboard ?",
+        "Parle-moi du bodyboard",
+        "Le bodyboard, c'est quoi ?"
+      ],
+      "responses": [
+        "Le bodyboard est un sport de glisse sur les vagues, pratique allonge sur une planche courte.",
+        "C'est une activite qui demande technique, agilite et sens de la vague.",
+        "Le bodyboard est populaire dans les regions côtières. As-tu dejà essaye ?",
+        "C'est un sport de glisse dynamique et accessible, ideal pour les amateurs de sensations fortes."
+      ]
+    },
+    {
+      "tag": "boomerang",
+      "patterns": [
+        "Qu'est-ce que le boomerang ?",
+        "Tu lances des boomerangs ?",
+        "Parle-moi du boomerang",
+        "Le boomerang, c'est quoi ?"
+      ],
+      "responses": [
+        "Le boomerang est un objet de lancer qui revient à son point de depart lorsqu'il est correctement lance.",
+        "C'est un sport qui demande technique et precision pour maîtriser le retour du boomerang.",
+        "Le boomerang est utilise dans diverses competitions et est aussi une activite amusante pour les amateurs. As-tu dejà essaye ?",
+        "C'est un loisir fascinant qui combine physique et ingenierie."
+      ]
+    },
+    {
+      "tag": "boule lyonnaise",
+      "patterns": [
+        "Qu'est-ce que la boule lyonnaise ?",
+        "Tu joues à la boule lyonnaise ?",
+        "Parle-moi de la boule lyonnaise",
+        "La boule lyonnaise, c'est quoi ?"
+      ],
+      "responses": [
+        "La boule lyonnaise est un sport de boules pratique en exterieur sur un terrain specifique.",
+        "C'est une activite qui combine precision, strategie et maîtrise des techniques de lancer.",
+        "La boule lyonnaise est souvent jouee en competition et en loisir. As-tu dejà essaye ?",
+        "C'est un jeu qui fait partie du patrimoine sportif français."
+      ]
+    },
+    {
+      "tag": "bowling",
+      "patterns": [
+        "Qu'est-ce que le bowling ?",
+        "Tu joues au bowling ?",
+        "Parle-moi du bowling",
+        "Le bowling, c'est quoi ?"
+      ],
+      "responses": [
+        "Le bowling est un sport où les joueurs lancent une boule pour renverser des quilles disposees en triangle.",
+        "C'est une activite amusante qui demande precision et technique.",
+        "Le bowling se pratique en salle et est populaire dans les centres de loisirs. As-tu dejà joue ?",
+        "C'est un jeu convivial qui se joue souvent en groupe."
+      ]
+    },
+    {
+      "tag": "boxe",
+      "patterns": [
+        "Qu'est-ce que la boxe ?",
+        "Tu fais de la boxe ?",
+        "Parle-moi de la boxe",
+        "La boxe, c'est quoi ?"
+      ],
+      "responses": [
+        "La boxe est un sport de combat où les adversaires s'affrontent en utilisant des gants et des techniques de frappe.",
+        "C'est une discipline qui exige force, endurance et strategie.",
+        "La boxe se pratique en differentes categories comme la boxe anglaise, thaïlandaise, ou birmane. As-tu une preference ?",
+        "C'est un sport à la fois exigeant et technique, avec une riche histoire."
+      ]
+    },
+    {
+      "tag": "bras de fer",
+      "patterns": [
+        "Qu'est-ce que le bras de fer ?",
+        "Tu fais du bras de fer ?",
+        "Parle-moi du bras de fer",
+        "Le bras de fer, c'est quoi ?"
+      ],
+      "responses": [
+        "Le bras de fer est un sport de force où deux personnes s'affrontent en essayant de faire plier le bras de l'autre.",
+        "C'est une activite qui demande puissance, technique et endurance.",
+        "Le bras de fer est souvent pratique lors de competitions et est populaire dans les demonstrations de force. As-tu dejà essaye ?",
+        "C'est un sport simple mais intense qui met l'accent sur la force musculaire."
+      ]
+    },
+    {
+      "tag": "bridge",
+      "patterns": [
+        "Qu'est-ce que le bridge ?",
+        "Tu joues au bridge ?",
+        "Parle-moi du bridge",
+        "Le bridge, c'est quoi ?"
+      ],
+      "responses": [
+        "Le bridge est un jeu de cartes strategique joue par quatre joueurs en equipes de deux.",
+        "C'est un jeu qui demande reflexion, memoire et competences en strategie.",
+        "Le bridge est souvent joue en club ou en competition. As-tu dejà participe à une partie ?",
+        "C'est un jeu classique qui combine sociabilite et complexite."
+      ]
+    },
+    {
+      "tag": "canicross",
+      "patterns": [
+        "Qu'est-ce que le canicross ?",
+        "Tu fais du canicross ?",
+        "Parle-moi du canicross",
+        "Le canicross, c'est quoi ?"
+      ],
+      "responses": [
+        "Le canicross est une discipline où un coureur est relie à son chien par une ceinture et une ligne de traction.",
+        "C'est un sport qui combine course à pied et entraînement canin.",
+        "Le canicross est une activite ideale pour les amateurs de course et de chiens. As-tu dejà essaye ?",
+        "C'est un sport qui renforce le lien entre le coureur et son chien."
+      ]
+    },
+    {
+      "tag": "canne de combat",
+      "patterns": [
+        "Qu'est-ce que la canne de combat ?",
+        "Tu pratiques la canne de combat ?",
+        "Parle-moi de la canne de combat",
+        "La canne de combat, c'est quoi ?"
+      ],
+      "responses": [
+        "La canne de combat est un sport de combat utilisant une canne en bois pour attaquer et se defendre.",
+        "C'est une discipline qui allie technique, rapidite et maîtrise des mouvements.",
+        "La canne de combat est un art martial traditionnel avec une approche elegante. As-tu dejà essaye ?",
+        "C'est une pratique qui demande une bonne coordination et un sens du timing."
+      ]
+    },
+    {
+      "tag": "canoë",
+      "patterns": [
+        "Qu'est-ce que le canoë ?",
+        "Tu fais du canoë ?",
+        "Parle-moi du canoë",
+        "Le canoë, c'est quoi ?"
+      ],
+      "responses": [
+        "Le canoë est un sport nautique où l'on utilise une pagaie pour avancer dans un bateau etroit.",
+        "C'est une activite qui demande coordination, endurance et maîtrise des techniques de pagaie.",
+        "Le canoë peut se pratiquer en rivière, sur lac ou en mer. As-tu dejà essaye ?",
+        "C'est un sport paisible et aventureux, ideal pour explorer les plans d'eau."
+      ]
+    },
+    {
+      "tag": "canoë-kayak",
+      "patterns": [
+        "Qu'est-ce que le canoë-kayak ?",
+        "Tu fais du canoë-kayak ?",
+        "Parle-moi du canoë-kayak",
+        "Le canoë-kayak, c'est quoi ?"
+      ],
+      "responses": [
+        "Le canoë-kayak est un sport nautique où l'on utilise une pagaie pour avancer dans un canoë ou un kayak.",
+        "C'est une activite qui demande technique, force et equilibre.",
+        "Le canoë-kayak se pratique en rivière, en lac ou en mer, avec des disciplines variees comme le slalom et la descente. As-tu une preference ?",
+        "C'est un sport polyvalent qui offre des sensations fortes et une belle connexion avec la nature."
+      ]
+    },
+    {
+      "tag": "canyoning",
+      "patterns": [
+        "Qu'est-ce que le canyoning ?",
+        "Tu fais du canyoning ?",
+        "Parle-moi du canyoning",
+        "Le canyoning, c'est quoi ?"
+      ],
+      "responses": [
+        "Le canyoning est une activite de plein air qui combine marche, escalade, rappel et nage dans des canyons.",
+        "C'est une aventure qui demande une bonne forme physique et un goût pour les defis.",
+        "Le canyoning permet d'explorer des environnements naturels spectaculaires. As-tu dejà tente l'experience ?",
+        "C'est une activite qui allie sport et decouverte, ideale pour les amateurs de sensations fortes."
+      ]
+    },
+    {
+      "tag": "capoeira",
+      "patterns": [
+        "Qu'est-ce que la capoeira ?",
+        "Tu pratiques la capoeira ?",
+        "Parle-moi de la capoeira",
+        "La capoeira, c'est quoi ?"
+      ],
+      "responses": [
+        "La capoeira est une forme d'art martial bresilien qui combine danse, musique et acrobaties.",
+        "C'est une activite qui allie grâce, rythme et techniques de combat.",
+        "La capoeira est souvent pratiquee en groupe avec de la musique et des chants. As-tu dejà participe à une roda ?",
+        "C'est une pratique culturelle riche, qui est à la fois sportive et artistique."
+      ]
+    },
+    {
+      "tag": "carrom",
+      "patterns": [
+        "Qu'est-ce que le carrom ?",
+        "Tu joues au carrom ?",
+        "Parle-moi du carrom",
+        "Le carrom, c'est quoi ?"
+      ],
+      "responses": [
+        "Le carrom est un jeu de table d'origine indienne où l'on utilise des pions pour marquer des points en les poussant dans des coins.",
+        "C'est une activite qui demande precision et strategie.",
+        "Le carrom est souvent joue en famille ou en competition. As-tu dejà essaye ?",
+        "C'est un jeu de societe amusant et stimulant, parfait pour des soirees conviviales."
+      ]
+    },
+    {
+      "tag": "catamaran",
+      "patterns": [
+        "Qu'est-ce que le catamaran ?",
+        "Tu fais du catamaran ?",
+        "Parle-moi du catamaran",
+        "Le catamaran, c'est quoi ?"
+      ],
+      "responses": [
+        "Le catamaran est un type de bateau à deux coques, offrant une stabilite et une vitesse accrues.",
+        "C'est une activite nautique qui combine navigation et sensation de glisse.",
+        "Le catamaran est ideal pour les sorties en mer et les regates. As-tu dejà navigue sur un catamaran ?",
+        "C'est une experience agreable et dynamique pour les amateurs de voile."
+      ]
+    },
+    {
+      "tag": "catch",
+      "patterns": [
+        "Qu'est-ce que le catch ?",
+        "Tu regardes du catch ?",
+        "Parle-moi du catch",
+        "Le catch, c'est quoi ?"
+      ],
+      "responses": [
+        "Le catch est un sport de divertissement où des lutteurs s'affrontent dans un ring avec des mouvements choregraphies.",
+        "C'est une activite spectaculaire qui combine athletisme, theâtre et acrobaties.",
+        "Le catch est souvent presente comme un spectacle televise. As-tu un lutteur prefere ?",
+        "C'est un divertissement energique qui attire de nombreux fans à travers le monde."
+      ]
+    },
+    {
+      "tag": "char à voile",
+      "patterns": [
+        "Qu'est-ce que le char à voile ?",
+        "Tu fais du char à voile ?",
+        "Parle-moi du char à voile",
+        "Le char à voile, c'est quoi ?"
+      ],
+      "responses": [
+        "Le char à voile est un vehicule leger equipe d'une voile, utilise pour naviguer sur le sable ou la plage.",
+        "C'est une activite qui demande maîtrise du vent et des competences en conduite.",
+        "Le char à voile est souvent pratique sur des plages ou des dunes. As-tu dejà essaye ?",
+        "C'est un sport de glisse unique, qui offre des sensations de vitesse sur terre."
+      ]
+    },
+    {
+      "tag": "cheerleading",
+      "patterns": [
+        "Qu'est-ce que le cheerleading ?",
+        "Tu fais du cheerleading ?",
+        "Parle-moi du cheerleading",
+        "Le cheerleading, c'est quoi ?"
+      ],
+      "responses": [
+        "Le cheerleading est une activite qui combine gymnastique, danse et acrobaties pour encourager une equipe sportive.",
+        "C'est une discipline dynamique qui demande synchronisation et energie.",
+        "Le cheerleading est souvent pratique lors des evenements sportifs. As-tu dejà assiste à une performance ?",
+        "C'est une pratique qui allie sport et esprit d'equipe."
+      ]
+    },
+    {
+      "tag": "coasteering",
+      "patterns": [
+        "Qu'est-ce que le coasteering ?",
+        "Tu fais du coasteering ?",
+        "Parle-moi du coasteering",
+        "Le coasteering, c'est quoi ?"
+      ],
+      "responses": [
+        "Le coasteering est une activite de plein air qui combine marche, escalade, nage et sauts depuis des falaises.",
+        "C'est une aventure qui demande courage et esprit d'equipe.",
+        "Le coasteering se pratique generalement le long des côtes et offre des paysages spectaculaires. As-tu dejà essaye ?",
+        "C'est une activite dynamique qui permet de decouvrir les côtes de manière originale."
+      ]
+    },
+    {
+      "tag": "combat",
+      "patterns": [
+        "Qu'est-ce que le combat ?",
+        "Tu fais du combat ?",
+        "Parle-moi du combat",
+        "Le combat, c'est quoi ?"
+      ],
+      "responses": [
+        "Le combat est une activite physique où les adversaires s'affrontent en utilisant des techniques de lutte ou de frappe.",
+        "C'est une discipline qui peut inclure des arts martiaux, la boxe ou d'autres formes de lutte.",
+        "Le combat demande preparation physique et mentale. As-tu une forme de combat preferee ?",
+        "C'est un sport qui peut être pratique à la fois en competition et en entraînement."
+      ]
+    },
+    {
+      "tag": "competition automobile",
+      "patterns": [
+        "Qu'est-ce que la competition automobile ?",
+        "Tu participes à des competitions automobiles ?",
+        "Parle-moi des competitions automobiles",
+        "La competition automobile, c'est quoi ?"
+      ],
+      "responses": [
+        "La competition automobile comprend diverses formes de courses de vehicules, comme la Formule 1 ou le rallye.",
+        "C'est un sport qui demande des competences de conduite extrêmes et une excellente maîtrise du vehicule.",
+        "Les competitions automobiles sont spectaculaires et attirent des millions de spectateurs. As-tu une equipe ou un pilote prefere ?",
+        "C'est un domaine où la vitesse et la technologie se rencontrent pour des performances incroyables."
+      ]
+    },
+    {
+      "tag": "course à pied",
+      "patterns": [
+        "Qu'est-ce que la course à pied ?",
+        "Tu fais de la course à pied ?",
+        "Parle-moi de la course à pied",
+        "La course à pied, c'est quoi ?"
+      ],
+      "responses": [
+        "La course à pied est un sport où l'on court sur differentes distances, souvent en exterieur.",
+        "C'est une activite simple et accessible qui ameliore la condition physique et l'endurance.",
+        "La course à pied peut se pratiquer en loisir ou en competition. As-tu une distance preferee ?",
+        "C'est un excellent moyen de rester en forme et de decouvrir des paysages varies."
+      ]
+    },
+    {
+      "tag": "course camarguaise",
+      "patterns": [
+        "Qu'est-ce que la course camarguaise ?",
+        "Tu connais la course camarguaise ?",
+        "Parle-moi de la course camarguaise",
+        "La course camarguaise, c'est quoi ?"
+      ],
+      "responses": [
+        "La course camarguaise est une tradition sportive de la region camarguaise en France où les participants doivent attraper des taureaux.",
+        "C'est un sport qui met en valeur l'agilite et la bravoure des coureurs.",
+        "La course camarguaise est souvent associee à des fêtes et des evenements culturels. As-tu dejà assiste à une course ?",
+        "C'est une pratique qui combine sport et tradition locale."
+      ]
+    },
+    {
+      "tag": "course d'orientation",
+      "patterns": [
+        "Qu'est-ce que la course d'orientation ?",
+        "Tu fais de la course d'orientation ?",
+        "Parle-moi de la course d'orientation",
+        "La course d'orientation, c'est quoi ?"
+      ],
+      "responses": [
+        "La course d'orientation est un sport où les participants utilisent une carte et une boussole pour trouver des points de contrôle dans un terrain varie.",
+        "C'est une activite qui allie course à pied et navigation.",
+        "La course d'orientation demande des competences en lecture de carte et en prise de decision. As-tu dejà participe à une course ?",
+        "C'est un sport stimulant qui combine endurance et strategie."
+      ]
+    },
+    {
+      "tag": "cricket",
+      "patterns": [
+        "Qu'est-ce que le cricket ?",
+        "Tu joues au cricket ?",
+        "Parle-moi du cricket",
+        "Le cricket, c'est quoi ?"
+      ],
+      "responses": [
+        "Le cricket est un sport d'equipe où les joueurs utilisent une batte pour frapper une balle et marquer des points.",
+        "C'est un jeu populaire dans des pays comme l'Angleterre, l'Australie et l'Inde.",
+        "Le cricket peut se jouer en formats varies, comme le Test cricket ou les formats courts comme le T20. As-tu une preference ?",
+        "C'est un sport qui combine strategie, technique et esprit d'equipe."
+      ]
+    },
+    {
+      "tag": "croquet",
+      "patterns": [
+        "Qu'est-ce que le croquet ?",
+        "Tu joues au croquet ?",
+        "Parle-moi du croquet",
+        "Le croquet, c'est quoi ?"
+      ],
+      "responses": [
+        "Le croquet est un jeu de plein air où les joueurs utilisent un maillet pour faire passer des boules à travers des arches fixees au sol.",
+        "C'est un sport qui demande precision et strategie.",
+        "Le croquet est souvent joue dans des jardins ou des espaces exterieurs. As-tu dejà joue ?",
+        "C'est un jeu classique et convivial, parfait pour les après-midis en plein air."
+      ]
+    },
+    {
+      "tag": "cross (equitation)",
+      "patterns": [
+        "Qu'est-ce que le cross en equitation ?",
+        "Tu pratiques le cross ?",
+        "Parle-moi du cross en equitation",
+        "Le cross en equitation, c'est quoi ?"
+      ],
+      "responses": [
+        "Le cross en equitation est une discipline où le cavalier et son cheval affrontent un parcours d'obstacles naturels en exterieur.",
+        "C'est un sport qui combine endurance, technique et courage.",
+        "Le cross est une partie du concours complet d'equitation. As-tu dejà assiste à une competition ?",
+        "C'est une epreuve exigeante qui teste les competences du cheval et du cavalier."
+      ]
+    },
+    {
+      "tag": "crossfit",
+      "patterns": [
+        "Qu'est-ce que le CrossFit ?",
+        "Tu fais du CrossFit ?",
+        "Parle-moi du CrossFit",
+        "Le CrossFit, c'est quoi ?"
+      ],
+      "responses": [
+        "Le CrossFit est un programme d'entraînement physique qui combine des exercices de force, d'endurance et de gymnastique.",
+        "C'est un entraînement intense qui utilise des mouvements varies pour ameliorer la condition physique globale.",
+        "Le CrossFit est souvent pratique en groupe avec des seances dirigees par des entraîneurs. As-tu dejà essaye un WOD (Workout of the Day) ?",
+        "C'est une approche complète du fitness qui encourage la progression et la communaute."
+      ]
+    },
+    {
+      "tag": "curling",
+      "patterns": [
+        "Qu'est-ce que le curling ?",
+        "Tu joues au curling ?",
+        "Parle-moi du curling",
+        "Le curling, c'est quoi ?"
+      ],
+      "responses": [
+        "Le curling est un sport d'equipe où les joueurs lancent des pierres de granit sur une glace en essayant de les placer dans une cible.",
+        "C'est un jeu qui demande precision, strategie et communication entre les membres de l'equipe.",
+        "Le curling est populaire dans les pays froids et lors des Jeux Olympiques d'hiver. As-tu dejà regarde une competition ?",
+        "C'est un sport qui combine habilete technique et tactique."
+      ]
+    },
+    {
+      "tag": "cyclisme",
+      "patterns": [
+        "Qu'est-ce que le cyclisme ?",
+        "Tu fais du cyclisme ?",
+        "Parle-moi du cyclisme",
+        "Le cyclisme, c'est quoi ?"
+      ],
+      "responses": [
+        "Le cyclisme est un sport où l'on utilise une bicyclette pour parcourir des distances sur route ou en terrain varie.",
+        "C'est une activite qui ameliore la condition physique et est souvent pratiquee en competition ou en loisir.",
+        "Le cyclisme peut inclure differentes disciplines comme le velo de route, le VTT, ou le cyclocross. As-tu une preference ?",
+        "C'est un sport versatile qui permet de decouvrir des paysages tout en restant en forme."
+      ]
+    },
+    {
+      "tag": "danse (claquettes)",
+      "patterns": [
+        "Qu'est-ce que la danse claquettes ?",
+        "Tu pratiques la danse claquettes ?",
+        "Parle-moi de la danse claquettes",
+        "La danse claquettes, c'est quoi ?"
+      ],
+      "responses": [
+        "La danse claquettes est une forme de danse où les danseurs frappent le sol avec des chaussures speciales pour creer des sons rythmes.",
+        "C'est une danse qui combine rythme, musique et mouvements rapides.",
+        "La danse claquettes peut être pratiquee en solo ou en groupe, et est souvent utilisee dans les spectacles de Broadway. As-tu dejà vu une performance de claquettes ?",
+        "C'est une danse energique qui necessite une bonne coordination des pieds et du corps."
+      ]
+    },
+    {
+      "tag": "danse (danse sportive)",
+      "patterns": [
+        "Qu'est-ce que la danse sportive ?",
+        "Tu pratiques la danse sportive ?",
+        "Parle-moi de la danse sportive",
+        "La danse sportive, c'est quoi ?"
+      ],
+      "responses": [
+        "La danse sportive regroupe des danses de salon telles que la danse latine et la danse standard, pratiquees en competition.",
+        "C'est une discipline qui combine technique, expression artistique et elegance.",
+        "Les competitions de danse sportive peuvent inclure des danses comme la valse, le tango, la samba, et bien d'autres. As-tu une danse preferee ?",
+        "C'est un sport qui met en avant la synchronisation entre les partenaires et la maîtrise des mouvements."
+      ]
+    },
+    {
+      "tag": "dames",
+      "patterns": [
+        "Qu'est-ce que le jeu de dames ?",
+        "Tu joues aux dames ?",
+        "Parle-moi des dames",
+        "Les dames, c'est quoi ?"
+      ],
+      "responses": [
+        "Le jeu de dames est un jeu de strategie joue sur un plateau carre avec des pièces qui se deplacent en diagonale pour capturer celles de l'adversaire.",
+        "C'est un jeu qui demande reflexion et planification strategique.",
+        "Il existe plusieurs variantes du jeu de dames, comme les dames anglaises ou les dames internationales. As-tu une version preferee ?",
+        "C'est un jeu classique qui peut être joue en famille ou en competition."
+      ]
+    },
+    {
+      "tag": "deltaplane",
+      "patterns": [
+        "Qu'est-ce que le deltaplane ?",
+        "Tu fais du deltaplane ?",
+        "Parle-moi du deltaplane",
+        "Le deltaplane, c'est quoi ?"
+      ],
+      "responses": [
+        "Le deltaplane est un aeronef leger, generalement en forme de triangle, qui permet de voler en utilisant les courants d'air.",
+        "C'est une activite de vol libre qui offre une vue panoramique et une sensation de liberte.",
+        "Le deltaplane necessite une formation et des competences en pilotage. As-tu dejà essaye cette experience ?",
+        "C'est un sport aerien qui combine aventure et technologie."
+      ]
+    },
+    {
+      "tag": "duathlon",
+      "patterns": [
+        "Qu'est-ce que le duathlon ?",
+        "Tu fais du duathlon ?",
+        "Parle-moi du duathlon",
+        "Le duathlon, c'est quoi ?"
+      ],
+      "responses": [
+        "Le duathlon est une competition multisports qui combine la course à pied et le cyclisme, generalement dans cet ordre.",
+        "C'est une epreuve qui teste à la fois l'endurance et la vitesse des participants.",
+        "Le duathlon peut inclure differentes distances et formats. As-tu dejà participe à une epreuve ?",
+        "C'est un sport exigeant qui demande une bonne preparation physique et mentale."
+      ]
+    },
+    {
+      "tag": "dodgeball",
+      "patterns": [
+        "Qu'est-ce que le dodgeball ?",
+        "Tu joues au dodgeball ?",
+        "Parle-moi du dodgeball",
+        "Le dodgeball, c'est quoi ?"
+      ],
+      "responses": [
+        "Le dodgeball est un sport où les equipes s'affrontent en lançant des balles pour toucher les membres de l'equipe adverse et les eliminer.",
+        "C'est un jeu rapide et dynamique qui combine agilite et strategie.",
+        "Le dodgeball est souvent joue dans des gymnases et est populaire dans les ecoles. As-tu dejà joue ?",
+        "C'est un sport amusant et energique qui peut être pratique en loisir ou en competition."
+      ]
+    },
+    {
+      "tag": "double dutch",
+      "patterns": [
+        "Qu'est-ce que le double dutch ?",
+        "Tu fais du double dutch ?",
+        "Parle-moi du double dutch",
+        "Le double dutch, c'est quoi ?"
+      ],
+      "responses": [
+        "Le double dutch est une forme de saut à la corde où deux cordes tournent en parallèle pendant que les participants sautent.",
+        "C'est une activite qui demande coordination, rythme et agilite.",
+        "Le double dutch est souvent pratique en groupe et est populaire dans les competitions de saut à la corde. As-tu dejà essaye ?",
+        "C'est une discipline ludique qui ameliore la condition physique et la synchronisation."
+      ]
+    },
+    {
+      "tag": "echecs",
+      "patterns": [
+        "Qu'est-ce que les echecs ?",
+        "Tu joues aux echecs ?",
+        "Parle-moi des echecs",
+        "Les echecs, c'est quoi ?"
+      ],
+      "responses": [
+        "Les echecs sont un jeu de strategie joue sur un plateau de 64 cases avec des pièces ayant des mouvements specifiques.",
+        "C'est un jeu qui demande reflexion, planification et anticipation des mouvements de l'adversaire.",
+        "Les echecs sont pratiques à differents niveaux, des parties amicales aux competitions internationales. As-tu un joueur ou une ouverture preferee ?",
+        "C'est un jeu qui stimule le cerveau et ameliore les competences en strategie et en resolution de problèmes."
+      ]
+    },
+    {
+      "tag": "equitation",
+      "patterns": [
+        "Qu'est-ce que l'equitation ?",
+        "Tu pratiques l'equitation ?",
+        "Parle-moi de l'equitation",
+        "L'equitation, c'est quoi ?"
+      ],
+      "responses": [
+        "L'equitation est un sport où l'on monte et contrôle un cheval pour diverses disciplines comme le dressage, le saut d'obstacles ou le cross.",
+        "C'est une activite qui demande harmonie entre le cavalier et le cheval, ainsi qu'une bonne maîtrise des techniques de monte.",
+        "L'equitation peut être pratiquee en loisir ou en competition. As-tu une discipline equestre preferee ?",
+        "C'est un sport qui allie plaisir de la nature et travail en duo avec le cheval."
+      ]
+    },
+    {
+      "tag": "escrime",
+      "patterns": [
+        "Qu'est-ce que l'escrime ?",
+        "Tu pratiques l'escrime ?",
+        "Parle-moi de l'escrime",
+        "L'escrime, c'est quoi ?"
+      ],
+      "responses": [
+        "L'escrime est un sport de combat où les participants utilisent des epees, des fleurets ou des sabres pour toucher l'adversaire.",
+        "C'est une discipline qui demande agilite, rapidite et strategie.",
+        "L'escrime est souvent pratiquee en competition et est egalement une discipline olympique. As-tu un type d'arme prefere ?",
+        "C'est un sport elegant et technique qui met en avant la finesse des mouvements et la tactique."
+      ]
+    },
+    {
+      "tag": "esport",
+      "patterns": [
+        "Qu'est-ce que l'esport ?",
+        "Tu pratiques l'esport ?",
+        "Parle-moi de l'esport",
+        "L'esport, c'est quoi ?"
+      ],
+      "responses": [
+        "L'esport est la pratique competitive de jeux video, souvent en equipes, avec des tournois et des championnats.",
+        "C'est une activite qui combine strategie, competences techniques et travail d'equipe.",
+        "L'esport a gagne en popularite avec des evenements internationaux et des ligues professionnelles. As-tu un jeu ou une equipe preferee ?",
+        "C'est un domaine en pleine expansion qui offre des opportunites de carrière et de divertissement."
+      ]
+    },
+    {
+      "tag": "fitness",
+      "patterns": [
+        "Qu'est-ce que le fitness ?",
+        "Tu fais du fitness ?",
+        "Parle-moi du fitness",
+        "Le fitness, c'est quoi ?"
+      ],
+      "responses": [
+        "Le fitness est un ensemble d'exercices physiques destines à ameliorer la forme physique, la force et l'endurance.",
+        "C'est une activite qui peut inclure des exercices de musculation, de cardio, de stretching et plus encore.",
+        "Le fitness est souvent pratique en salle de sport avec des equipements varies. As-tu une routine ou un objectif specifique ?",
+        "C'est une pratique qui favorise la sante globale et le bien-être."
+      ]
+    },
+    {
+      "tag": "formule 1",
+      "patterns": [
+        "Qu'est-ce que la Formule 1 ?",
+        "Tu suis la Formule 1 ?",
+        "Parle-moi de la Formule 1",
+        "La Formule 1, c'est quoi ?"
+      ],
+      "responses": [
+        "La Formule 1 est une categorie de courses automobiles consideree comme la plus prestigieuse du sport automobile.",
+        "C'est une competition qui reunit des voitures de haute performance et des pilotes de renommee mondiale.",
+        "Les courses de Formule 1 sont disputees sur des circuits internationaux et incluent des grands prix. As-tu une ecurie ou un pilote prefere ?",
+        "C'est un sport qui allie technologie avancee et spectacle de vitesse."
+      ]
+    },
+    {
+      "tag": "formule 2",
+      "patterns": [
+        "Qu'est-ce que la Formule 2 ?",
+        "Tu suis la Formule 2 ?",
+        "Parle-moi de la Formule 2",
+        "La Formule 2, c'est quoi ?"
+      ],
+      "responses": [
+        "La Formule 2 est une categorie de courses automobiles qui sert de tremplin pour les jeunes pilotes aspirant à la Formule 1.",
+        "C'est une competition qui utilise des voitures similaires avec des performances un peu moins elevees que celles de la Formule 1.",
+        "Les courses de Formule 2 se deroulent souvent sur les mêmes circuits que ceux de la Formule 1. As-tu un pilote ou une equipe favorite dans cette categorie ?",
+        "C'est une etape importante pour les pilotes en devenir, offrant des opportunites de se faire remarquer."
+      ]
+    },
+    {
+      "tag": "formule 3",
+      "patterns": [
+        "Qu'est-ce que la Formule 3 ?",
+        "Tu suis la Formule 3 ?",
+        "Parle-moi de la Formule 3",
+        "La Formule 3, c'est quoi ?"
+      ],
+      "responses": [
+        "La Formule 3 est une categorie de courses automobiles qui est souvent consideree comme un niveau en dessous de la Formule 2 et un tremplin vers la Formule 1.",
+        "C'est une competition où les jeunes pilotes developpent leurs competences avant de passer à des niveaux superieurs.",
+        "Les voitures de Formule 3 sont conçues pour offrir un bon equilibre entre performance et coût. As-tu dejà regarde une course de Formule 3 ?",
+        "C'est une etape cle dans le developpement des talents du sport automobile."
+      ]
+    },
+    {
+      "tag": "formule 4",
+      "patterns": [
+        "Qu'est-ce que la Formule 4 ?",
+        "Tu suis la Formule 4 ?",
+        "Parle-moi de la Formule 4",
+        "La Formule 4, c'est quoi ?"
+      ],
+      "responses": [
+        "La Formule 4 est une categorie de courses automobiles qui represente souvent le premier niveau de competition en monoplaces pour les jeunes pilotes.",
+        "C'est une serie d'entree où les pilotes peuvent acquerir de l'experience avant de progresser vers des categories superieures comme la Formule 3 ou la Formule 2.",
+        "Les voitures de Formule 4 sont plus simples et moins coûteuses que celles des niveaux superieurs. As-tu dejà assiste à une course de Formule 4 ?",
+        "C'est une excellente opportunite pour les jeunes talents de se faire connaître dans le monde des courses automobiles."
+      ]
+    },
+    {
+      "tag": "flag football",
+      "patterns": [
+        "Qu'est-ce que le flag football ?",
+        "Tu joues au flag football ?",
+        "Parle-moi du flag football",
+        "Le flag football, c'est quoi ?"
+      ],
+      "responses": [
+        "Le flag football est une variante du football americain où les joueurs portent des drapeaux attaches à leur ceinture et doivent les retirer pour stopper le jeu.",
+        "C'est un sport sans contact physique fort, ce qui le rend plus accessible et moins dangereux que le football americain traditionnel.",
+        "Le flag football est souvent joue dans des ligues recreatives et scolaires. As-tu dejà joue ou regarde un match ?",
+        "C'est une manière amusante de pratiquer le football americain avec moins de risques de blessures."
+      ]
+    },
+    {
+      "tag": "floorball",
+      "patterns": [
+        "Qu'est-ce que le floorball ?",
+        "Tu pratiques le floorball ?",
+        "Parle-moi du floorball",
+        "Le floorball, c'est quoi ?"
+      ],
+      "responses": [
+        "Le floorball est un sport de salle qui ressemble au hockey sur glace mais se joue avec des bâtons en plastique et une balle perforee.",
+        "C'est un jeu rapide et dynamique où les equipes tentent de marquer des buts dans le but adverse.",
+        "Le floorball est souvent joue dans des gymnases et est populaire dans les pays nordiques. As-tu dejà joue ou assiste à une rencontre ?",
+        "C'est un sport qui allie habilete, vitesse et strategie."
+      ]
+    },
+    {
+      "tag": "folkrace",
+      "patterns": [
+        "Qu'est-ce que le folkrace ?",
+        "Tu suis le folkrace ?",
+        "Parle-moi du folkrace",
+        "Le folkrace, c'est quoi ?"
+      ],
+      "responses": [
+        "Le folkrace est une forme de course automobile tout-terrain, populaire en Suède, où les voitures modifiees s'affrontent sur des circuits varies.",
+        "C'est un sport de course accessible, souvent pratique avec des voitures de serie modifiees pour des performances accrues.",
+        "Le folkrace est connu pour ses courses spectaculaires et ses evenements communautaires. As-tu dejà regarde une course ou participe ?",
+        "C'est une discipline amusante qui melange competition et camaraderie."
+      ]
+    },
+    {
+      "tag": "football",
+      "patterns": [
+        "Qu'est-ce que le football ?",
+        "Tu suis le football ?",
+        "Parle-moi du football",
+        "Le football, c'est quoi ?"
+      ],
+      "responses": [
+        "Le football est un sport d'equipe où les joueurs tentent de marquer des buts en envoyant un ballon dans le but adverse à l'aide de leurs pieds.",
+        "C'est le sport le plus populaire au monde, avec des ligues professionnelles et des competitions internationales telles que la Coupe du Monde.",
+        "Le football est souvent pratique à differents niveaux, des matchs amateurs aux competitions professionnelles. As-tu une equipe ou un joueur prefere ?",
+        "C'est un sport qui favorise l'esprit d'equipe, la condition physique et le fair-play."
+      ]
+    },
+    {
+      "tag": "football americain",
+      "patterns": [
+        "Qu'est-ce que le football americain ?",
+        "Tu suis le football americain ?",
+        "Parle-moi du football americain",
+        "Le football americain, c'est quoi ?"
+      ],
+      "responses": [
+        "Le football americain est un sport d'equipe où les joueurs tentent de marquer des points en portant ou en lançant un ballon oval dans la zone de but adverse.",
+        "C'est un sport de contact physique intense, connu pour ses strategies complexes et ses jeux de passes et de courses.",
+        "Le football americain est populaire aux etats-Unis avec des ligues professionnelles comme la NFL et des competitions universitaires. As-tu une equipe ou un joueur prefere ?",
+        "C'est un sport qui combine puissance, strategie et coordination."
+      ]
+    },
+    {
+      "tag": "football australien",
+      "patterns": [
+        "Qu'est-ce que le football australien ?",
+        "Tu suis le football australien ?",
+        "Parle-moi du football australien",
+        "Le football australien, c'est quoi ?"
+      ],
+      "responses": [
+        "Le football australien est un sport d'equipe joue sur un grand terrain ovale où les joueurs utilisent leurs mains et leurs pieds pour marquer des buts.",
+        "C'est un jeu rapide et physique, combinant des elements de football, de rugby et de handball.",
+        "Le football australien est très populaire en Australie avec des competitions comme la AFL. As-tu dejà regarde un match ou essaye ce sport ?",
+        "C'est un sport excitant qui demande de l'endurance, de la force et une bonne coordination."
+      ]
+    },
+    {
+      "tag": "football canadien",
+      "patterns": [
+        "Qu'est-ce que le football canadien ?",
+        "Tu suis le football canadien ?",
+        "Parle-moi du football canadien",
+        "Le football canadien, c'est quoi ?"
+      ],
+      "responses": [
+        "Le football canadien est un sport similaire au football americain mais avec des règles legèrement differentes, comme un terrain plus large et moins de joueurs par equipe.",
+        "C'est un sport de contact où les equipes essaient de marquer des points en avançant le ballon dans la zone de but adverse.",
+        "Le football canadien est populaire au Canada, avec des ligues comme la CFL. As-tu une equipe ou un joueur prefere ?",
+        "C'est un sport dynamique qui combine strategie et force physique."
+      ]
+    },
+    {
+      "tag": "football gaelique",
+      "patterns": [
+        "Qu'est-ce que le football gaelique ?",
+        "Tu suis le football gaelique ?",
+        "Parle-moi du football gaelique",
+        "Le football gaelique, c'est quoi ?"
+      ],
+      "responses": [
+        "Le football gaelique est un sport d'equipe irlandais où les joueurs utilisent les pieds et les mains pour marquer des points avec un ballon ovale.",
+        "C'est un jeu rapide qui combine des elements de football, de rugby et de handball.",
+        "Le football gaelique est pratique principalement en Irlande et est regule par la GAA (Gaelic Athletic Association). As-tu dejà assiste à un match ou joue ?",
+        "C'est un sport qui met en avant la condition physique, les competences techniques et le jeu d'equipe."
+      ]
+    },
+    {
+      "tag": "footing",
+      "patterns": [
+        "Qu'est-ce que le footing ?",
+        "Tu fais du footing ?",
+        "Parle-moi du footing",
+        "Le footing, c'est quoi ?"
+      ],
+      "responses": [
+        "Le footing est une forme de course à pied legère, souvent pratiquee pour ameliorer la forme physique generale et la sante.",
+        "C'est une activite accessible qui peut être pratiquee à differents niveaux d'intensite, du jogging leger au rythme plus soutenu.",
+        "Le footing est souvent fait en plein air, dans les parcs ou les sentiers. As-tu un itineraire prefere pour courir ?",
+        "C'est un excellent moyen de rester actif et de se detendre."
+      ]
+    },
+    {
+      "tag": "futsal",
+      "patterns": [
+        "Qu'est-ce que le futsal ?",
+        "Tu joues au futsal ?",
+        "Parle-moi du futsal",
+        "Le futsal, c'est quoi ?"
+      ],
+      "responses": [
+        "Le futsal est une variante du football jouee en salle sur un terrain plus petit avec un ballon moins rebondissant.",
+        "C'est un sport rapide qui met l'accent sur la technique, le contrôle du ballon et les mouvements rapides.",
+        "Le futsal est souvent pratique dans des gymnases et est populaire dans les pays d'Amerique latine et en Europe. As-tu dejà joue ou regarde un match ?",
+        "C'est une excellente manière de developper ses competences en football et d'ameliorer sa condition physique."
+      ]
+    },
+    {
+      "tag": "glisse",
+      "patterns": [
+        "Qu'est-ce que la glisse ?",
+        "Tu fais de la glisse ?",
+        "Parle-moi de la glisse",
+        "La glisse, c'est quoi ?"
+      ],
+      "responses": [
+        "La glisse est un terme generique qui regroupe divers sports où l'on se deplace en glissant, comme le ski, le snowboard ou le skateboard.",
+        "C'est une categorie d'activites qui met en avant le plaisir du mouvement et le contrôle de la vitesse.",
+        "La glisse peut se pratiquer sur neige, sur eau ou sur des surfaces solides comme le bitume. As-tu une activite de glisse preferee ?",
+        "C'est un domaine varie qui offre de nombreuses sensations fortes et divertissantes."
+      ]
+    },
+    {
+      "tag": "gouren",
+      "patterns": [
+        "Qu'est-ce que le gouren ?",
+        "Tu pratiques le gouren ?",
+        "Parle-moi du gouren",
+        "Le gouren, c'est quoi ?"
+      ],
+      "responses": [
+        "Le gouren est un sport de lutte traditionnel breton où les lutteurs essaient de faire tomber leur adversaire au sol en utilisant des techniques specifiques.",
+        "C'est une forme de lutte qui met l'accent sur l'equilibre, la technique et la force physique.",
+        "Le gouren est souvent pratique lors de festivals et d'evenements culturels en Bretagne. As-tu dejà assiste à un tournoi de gouren ?",
+        "C'est un sport qui combine tradition et competition."
+      ]
+    },
+    {
+      "tag": "grappling",
+      "patterns": [
+        "Qu'est-ce que le grappling ?",
+        "Tu pratiques le grappling ?",
+        "Parle-moi du grappling",
+        "Le grappling, c'est quoi ?"
+      ],
+      "responses": [
+        "Le grappling est un sport de combat base sur la lutte au sol, où les participants essaient de contrôler ou de soumettre leur adversaire.",
+        "C'est une discipline qui met l'accent sur les techniques de prise, de contrôle et de soumission.",
+        "Le grappling est souvent pratique comme une base pour d'autres sports de combat comme le jiu-jitsu bresilien ou le MMA. As-tu une technique ou un style prefere ?",
+        "C'est un sport qui demande technique, endurance et strategie."
+      ]
+    },
+    {
+      "tag": "gymnastique",
+      "patterns": [
+        "Qu'est-ce que la gymnastique ?",
+        "Tu pratiques la gymnastique ?",
+        "Parle-moi de la gymnastique",
+        "La gymnastique, c'est quoi ?"
+      ],
+      "responses": [
+        "La gymnastique est un sport qui comprend des exercices de force, d'agilite, de souplesse et d'equilibre, realises sur divers agrès comme la poutre ou les barres asymetriques.",
+        "C'est une discipline qui peut être pratiquee à differents niveaux, du loisir à la competition, et inclut des routines individuelles et en groupe.",
+        "La gymnastique est souvent vue dans les competitions olympiques et les spectacles. As-tu une epreuve ou un athlète prefere ?",
+        "C'est un sport qui developpe la condition physique et l'harmonie du corps."
+      ]
+    },
+    {
+      "tag": "gymnastique rythmique",
+      "patterns": [
+        "Qu'est-ce que la gymnastique rythmique ?",
+        "Tu pratiques la gymnastique rythmique ?",
+        "Parle-moi de la gymnastique rythmique",
+        "La gymnastique rythmique, c'est quoi ?"
+      ],
+      "responses": [
+        "La gymnastique rythmique est une discipline de gymnastique où les athlètes executent des routines choregraphiees avec des accessoires comme des rubans, des cerceaux, ou des ballons.",
+        "C'est un sport qui combine la danse, la musique et des mouvements acrobatiques.",
+        "La gymnastique rythmique est souvent pratiquee en solo ou en groupe et est populaire dans les competitions internationales. As-tu dejà assiste à une performance ?",
+        "C'est une discipline elegante qui met en avant la grâce et la precision."
+      ]
+    },
+    {
+      "tag": "haka pei",
+      "patterns": [
+        "Qu'est-ce que le haka pei ?",
+        "Tu fais du haka pei ?",
+        "Parle-moi du haka pei",
+        "Le haka pei, c'est quoi ?"
+      ],
+      "responses": [
+        "Le haka pei est une danse traditionnelle polynesienne où les participants effectuent des mouvements rapides et puissants, souvent en se deplaçant en groupe.",
+        "C'est une forme de danse qui exprime la force et la culture des Polynesiens.",
+        "Le haka pei est souvent pratique lors de ceremonies et d'evenements culturels. As-tu dejà vu une performance ou participe à un evenement ?",
+        "C'est une danse dynamique qui met en avant la tradition et l'esprit communautaire."
+      ]
+    },
+    {
+      "tag": "hakko-ryu",
+      "patterns": [
+        "Qu'est-ce que le hakko-ryu ?",
+        "Tu pratiques le hakko-ryu ?",
+        "Parle-moi du hakko-ryu",
+        "Le hakko-ryu, c'est quoi ?"
+      ],
+      "responses": [
+        "Le hakko-ryu est un art martial japonais qui se concentre sur les techniques de judo et d'acupuncture pour neutraliser les adversaires.",
+        "C'est un style d'art martial qui combine des techniques de projection, de contrôle et de pression sur les points vitaux.",
+        "Le hakko-ryu est souvent pratique pour ses techniques de self-defense et ses principes de sante. As-tu dejà essaye cet art martial ?",
+        "C'est une discipline qui met l'accent sur la fluidite des mouvements et l'efficacite."
+      ]
+    },
+    {
+      "tag": "halterophilie",
+      "patterns": [
+        "Qu'est-ce que l'halterophilie ?",
+        "Tu pratiques l'halterophilie ?",
+        "Parle-moi de l'halterophilie",
+        "L'halterophilie, c'est quoi ?"
+      ],
+      "responses": [
+        "L'halterophilie est un sport de force où les athlètes soulèvent des poids dans des mouvements specifiques comme l'arrache et l'epaule-jete.",
+        "C'est une discipline qui met l'accent sur la puissance, la technique et la vitesse.",
+        "L'halterophilie est souvent pratiquee en competition et est une epreuve olympique. As-tu un athlète ou une technique preferee ?",
+        "C'est un sport qui developpe la force musculaire et la discipline."
+      ]
+    },
+    {
+      "tag": "handball",
+      "patterns": [
+        "Qu'est-ce que le handball ?",
+        "Tu suis le handball ?",
+        "Parle-moi du handball",
+        "Le handball, c'est quoi ?"
+      ],
+      "responses": [
+        "Le handball est un sport d'equipe où les joueurs essaient de marquer des buts en lançant un ballon dans le but adverse à l'aide de leurs mains.",
+        "C'est un jeu rapide et dynamique qui combine des elements de football et de basket-ball.",
+        "Le handball est joue à differents niveaux, des ligues locales aux competitions internationales comme les championnats du monde. As-tu une equipe ou un joueur prefere ?",
+        "C'est un sport qui demande de l'endurance, de la vitesse et une bonne coordination."
+      ]
+    },
+    {
+      "tag": "hockey",
+      "patterns": [
+        "Qu'est-ce que le hockey ?",
+        "Tu suis le hockey ?",
+        "Parle-moi du hockey",
+        "Le hockey, c'est quoi ?"
+      ],
+      "responses": [
+        "Le hockey est un sport d'equipe joue sur glace ou sur terrain, où les joueurs utilisent des bâtons pour marquer des buts en envoyant un palet ou une balle dans le but adverse.",
+        "Il existe plusieurs variantes, dont le hockey sur glace et le hockey sur gazon, chacun ayant ses propres règles et equipements.",
+        "Le hockey sur glace est particulièrement populaire en Amerique du Nord et en Europe, tandis que le hockey sur gazon est plus repandu en Asie et en Europe. As-tu une preference pour l'une des deux variantes ?",
+        "C'est un sport qui combine rapidite, technique et strategie."
+      ]
+    },
+    {
+      "tag": "hockey sur gazon",
+      "patterns": [
+        "Qu'est-ce que le hockey sur gazon ?",
+        "Tu suis le hockey sur gazon ?",
+        "Parle-moi du hockey sur gazon",
+        "Le hockey sur gazon, c'est quoi ?"
+      ],
+      "responses": [
+        "Le hockey sur gazon est un sport d'equipe joue sur un terrain en gazon artificiel ou naturel, où les joueurs utilisent des bâtons courbes pour marquer des buts avec une balle.",
+        "C'est un jeu rapide qui combine des elements de strategie, de technique et de condition physique.",
+        "Le hockey sur gazon est populaire dans des pays comme l'Inde, les Pays-Bas et l'Australie. As-tu dejà regarde un match ou joue ?",
+        "C'est un sport qui met l'accent sur le travail d'equipe et la vitesse."
+      ]
+    },
+    {
+      "tag": "hockey sur glace",
+      "patterns": [
+        "Qu'est-ce que le hockey sur glace ?",
+        "Tu suis le hockey sur glace ?",
+        "Parle-moi du hockey sur glace",
+        "Le hockey sur glace, c'est quoi ?"
+      ],
+      "responses": [
+        "Le hockey sur glace est un sport d'equipe joue sur une patinoire où les joueurs utilisent des bâtons pour faire glisser un palet dans le but adverse.",
+        "C'est un jeu rapide et physique avec des contacts frequents et des strategies complexes.",
+        "Le hockey sur glace est particulièrement populaire en Amerique du Nord, en Europe et en Asie. As-tu une equipe ou un joueur prefere ?",
+        "C'est un sport qui combine rapidite, habilete et robustesse."
+      ]
+    },
+    {
+      "tag": "judo",
+      "patterns": [
+        "Qu'est-ce que le judo ?",
+        "Tu pratiques le judo ?",
+        "Parle-moi du judo",
+        "Le judo, c'est quoi ?"
+      ],
+      "responses": [
+        "Le judo est un art martial japonais qui se concentre sur les techniques de projection et de soumission, en utilisant la force de l'adversaire contre lui-même.",
+        "C'est une discipline qui met l'accent sur la technique, l'equilibre et le contrôle plutôt que sur la force brute.",
+        "Le judo est pratique à differents niveaux, du loisir à la competition internationale, et est aussi un sport olympique. As-tu une technique ou un judoka prefere ?",
+        "C'est un sport qui favorise la discipline, le respect et la maîtrise de soi."
+      ]
+    },
+    {
+      "tag": "karate",
+      "patterns": [
+        "Qu'est-ce que le karate ?",
+        "Tu pratiques le karate ?",
+        "Parle-moi du karate",
+        "Le karate, c'est quoi ?"
+      ],
+      "responses": [
+        "Le karate est un art martial japonais qui se concentre sur les techniques de frappe, de blocage et de defense, utilisant les poings, les pieds, les coudes et les genoux.",
+        "C'est une discipline qui combine des aspects de self-defense, de forme physique et de developpement personnel.",
+        "Le karate est pratique à differents niveaux et est aussi un sport olympique. As-tu un style ou un pratiquant prefere ?",
+        "C'est un sport qui developpe la force, la souplesse et la concentration."
+      ]
+    },
+    {
+      "tag": "kickboxing",
+      "patterns": [
+        "Qu'est-ce que le kickboxing ?",
+        "Tu pratiques le kickboxing ?",
+        "Parle-moi du kickboxing",
+        "Le kickboxing, c'est quoi ?"
+      ],
+      "responses": [
+        "Le kickboxing est un sport de combat qui combine des techniques de coups de pied et de coups de poing, souvent inspirees du karate et de la boxe.",
+        "C'est un sport qui met l'accent sur la puissance, la rapidite et la technique, avec des competitions en ring.",
+        "Le kickboxing est pratique tant à des fins de conditionnement physique qu'en tant que sport de competition. As-tu une technique ou un combattant prefere ?",
+        "C'est un sport dynamique qui combine agilite et force."
+      ]
+    },
+    {
+      "tag": "krav maga",
+      "patterns": [
+        "Qu'est-ce que le krav maga ?",
+        "Tu pratiques le krav maga ?",
+        "Parle-moi du krav maga",
+        "Le krav maga, c'est quoi ?"
+      ],
+      "responses": [
+        "Le krav maga est un système de self-defense developpe en Israël qui se concentre sur des techniques pratiques pour se defendre contre des attaques reelles.",
+        "C'est un art martial qui met l'accent sur des mouvements simples, directs et efficaces, adaptes à des situations de combat reel.",
+        "Le krav maga est souvent utilise pour la defense personnelle et est pratique par les forces de securite et en tant que sport. As-tu dejà essaye cette methode ?",
+        "C'est un système qui privilegie l'efficacite et la rapidite dans des situations de danger."
+      ]
+    },
+    {
+      "tag": "lutte",
+      "patterns": [
+        "Qu'est-ce que la lutte ?",
+        "Tu pratiques la lutte ?",
+        "Parle-moi de la lutte",
+        "La lutte, c'est quoi ?"
+      ],
+      "responses": [
+        "La lutte est un sport de combat où les participants utilisent des techniques de prise, de projection et de contrôle pour faire tomber ou soumettre leur adversaire.",
+        "Il existe differentes formes de lutte, comme la lutte greco-romaine et la lutte libre, chacune ayant ses propres règles et techniques.",
+        "La lutte est pratiquee à differents niveaux, des competitions locales aux Jeux Olympiques. As-tu une technique ou un lutteur prefere ?",
+        "C'est un sport qui developpe la force, la technique et la strategie."
+      ]
+    },
+    {
+      "tag": "motocross",
+      "patterns": [
+        "Qu'est-ce que le motocross ?",
+        "Tu suis le motocross ?",
+        "Parle-moi du motocross",
+        "Le motocross, c'est quoi ?"
+      ],
+      "responses": [
+        "Le motocross est une forme de course de moto tout-terrain où les pilotes s'affrontent sur des circuits conçus avec des obstacles naturels et artificiels.",
+        "C'est un sport qui demande une grande maîtrise de la moto et une bonne condition physique pour gerer les terrains varies et les sauts.",
+        "Le motocross est souvent pratique dans des competitions locales et internationales. As-tu un pilote ou une course preferee ?",
+        "C'est un sport spectaculaire qui combine vitesse et technique."
+      ]
+    },
+    {
+      "tag": "natation",
+      "patterns": [
+        "Qu'est-ce que la natation ?",
+        "Tu pratiques la natation ?",
+        "Parle-moi de la natation",
+        "La natation, c'est quoi ?"
+      ],
+      "responses": [
+        "La natation est un sport aquatique où les participants se deplacent dans l'eau en utilisant differentes techniques de nage comme le crawl, la brasse, le dos ou le papillon.",
+        "C'est une activite complète qui ameliore la condition physique, la force et l'endurance.",
+        "La natation est souvent pratiquee à des fins recreatives, de competition ou de rehabilitation. As-tu un style de nage prefere ou un nageur que tu admires ?",
+        "C'est un sport qui est excellent pour la forme physique globale et le bien-être."
+      ]
+    },
+    {
+      "tag": "pentathlon",
+      "patterns": [
+        "Qu'est-ce que le pentathlon ?",
+        "Tu suis le pentathlon ?",
+        "Parle-moi du pentathlon",
+        "Le pentathlon, c'est quoi ?"
+      ],
+      "responses": [
+        "Le pentathlon est une competition multisports qui combine generalement cinq disciplines differentes, comme l'escrime, la natation, le cyclisme, la course à pied et le tir.",
+        "C'est une epreuve qui teste les capacites physiques et techniques des athlètes dans divers sports.",
+        "Le pentathlon moderne, comme celui des Jeux Olympiques, inclut l'escrime, la natation, le tir, le cyclisme et la course. As-tu une discipline favorite parmi celles-ci ?",
+        "C'est un sport qui met en avant la polyvalence et l'endurance."
+      ]
+    },
+    {
+      "tag": "petanque",
+      "patterns": [
+        "Qu'est-ce que la petanque ?",
+        "Tu joues à la petanque ?",
+        "Parle-moi de la petanque",
+        "La petanque, c'est quoi ?"
+      ],
+      "responses": [
+        "La petanque est un jeu de boules d'origine provençale où les joueurs essaient de lancer des boules le plus près possible d'une petite boule appelee cochonnet.",
+        "C'est un sport de precision et de strategie qui se joue souvent en exterieur, sur un terrain sableux ou gravillonne.",
+        "La petanque est populaire en France et dans d'autres pays mediterraneens. As-tu dejà joue ou regarde un tournoi ?",
+        "C'est un jeu convivial qui favorise la concentration et le jeu en equipe."
+      ]
+    },
+    {
+      "tag": "rugby",
+      "patterns": [
+        "Qu'est-ce que le rugby ?",
+        "Tu suis le rugby ?",
+        "Parle-moi du rugby",
+        "Le rugby, c'est quoi ?"
+      ],
+      "responses": [
+        "Le rugby est un sport d'equipe où les joueurs essaient de marquer des essais en portant ou en passant le ballon ovale à travers la ligne de but adverse.",
+        "Il existe plusieurs variantes, comme le rugby à XV et le rugby à XIII, chacune avec ses propres règles et strategies.",
+        "Le rugby est populaire dans des pays comme la Nouvelle-Zelande, l'Angleterre et l'Afrique du Sud. As-tu une equipe ou un joueur prefere ?",
+        "C'est un sport qui demande de la force, de la strategie et un esprit d'equipe fort."
+      ]
+    },
+    {
+      "tag": "ski",
+      "patterns": [
+        "Qu'est-ce que le ski ?",
+        "Tu fais du ski ?",
+        "Parle-moi du ski",
+        "Le ski, c'est quoi ?"
+      ],
+      "responses": [
+        "Le ski est un sport d'hiver où les participants se deplacent sur la neige à l'aide de skis fixes à leurs chaussures.",
+        "Il existe plusieurs types de ski, comme le ski alpin, le ski de fond et le ski freestyle, chacun ayant ses propres techniques et equipements.",
+        "Le ski est souvent pratique dans les stations de montagne et est populaire dans des pays comme la Suisse, la France et le Canada. As-tu une piste ou une station de ski preferee ?",
+        "C'est un sport qui offre des sensations fortes et permet de profiter de la nature en hiver."
+      ]
+    },
+    {
+      "tag": "squash",
+      "patterns": [
+        "Qu'est-ce que le squash ?",
+        "Tu joues au squash ?",
+        "Parle-moi du squash",
+        "Le squash, c'est quoi ?"
+      ],
+      "responses": [
+        "Le squash est un sport de raquette joue à l'interieur, où deux joueurs essaient de frapper une balle en caoutchouc contre les murs d'un court.",
+        "C'est un jeu rapide et intense qui met l'accent sur l'endurance, la vitesse et la strategie.",
+        "Le squash est souvent pratique en club et peut être joue à differents niveaux, des loisirs à la competition. As-tu un joueur ou un coup prefere ?",
+        "C'est un sport qui demande une bonne condition physique et des reflexes rapides."
+      ]
+    },
+    {
+      "tag": "surf",
+      "patterns": [
+        "Qu'est-ce que le surf ?",
+        "Tu fais du surf ?",
+        "Parle-moi du surf",
+        "Le surf, c'est quoi ?"
+      ],
+      "responses": [
+        "Le surf est un sport où les participants montent sur une planche pour glisser sur les vagues de l'ocean.",
+        "C'est une activite qui combine equilibre, technique et interaction avec les conditions naturelles.",
+        "Le surf est souvent pratique dans des zones côtières avec de bonnes vagues et est populaire dans des endroits comme Hawaï, la Californie et l'Australie. As-tu un spot ou une technique de surf preferee ?",
+        "C'est un sport qui offre des sensations de liberte et de connexion avec la nature."
+      ]
+    },
+    {
+      "tag": "taekwondo",
+      "patterns": [
+        "Qu'est-ce que le taekwondo ?",
+        "Tu pratiques le taekwondo ?",
+        "Parle-moi du taekwondo",
+        "Le taekwondo, c'est quoi ?"
+      ],
+      "responses": [
+        "Le taekwondo est un art martial coreen connu pour ses techniques de coups de pied spectaculaires et ses mouvements acrobatiques.",
+        "C'est une discipline qui combine des aspects de self-defense, de condition physique et de competition.",
+        "Le taekwondo est pratique à differents niveaux, des loisirs à la competition internationale, et est aussi un sport olympique. As-tu un style ou un pratiquant prefere ?",
+        "C'est un sport qui met l'accent sur la rapidite, la precision et la discipline."
+      ]
+    },
+    {
+      "tag": "tennis",
+      "patterns": [
+        "Qu'est-ce que le tennis ?",
+        "Tu joues au tennis ?",
+        "Parle-moi du tennis",
+        "Le tennis, c'est quoi ?"
+      ],
+      "responses": [
+        "Le tennis est un sport où les joueurs utilisent une raquette pour frapper une balle de chaque côte d'un filet, en essayant de marquer des points en la faisant rebondir dans le terrain adverse.",
+        "C'est un jeu qui combine des aspects de technique, de strategie et de condition physique.",
+        "Le tennis est pratique à differents niveaux, des amateurs aux professionnels, et est aussi un sport olympique. As-tu un joueur ou un tournoi prefere ?",
+        "C'est un sport qui demande agilite, precision et endurance."
+      ]
+    },
+    {
+      "tag": "triathlon",
+      "patterns": [
+        "Qu'est-ce que le triathlon ?",
+        "Tu pratiques le triathlon ?",
+        "Parle-moi du triathlon",
+        "Le triathlon, c'est quoi ?"
+      ],
+      "responses": [
+        "Le triathlon est une competition multisports qui combine la natation, le cyclisme et la course à pied, generalement dans cet ordre.",
+        "C'est un sport exigeant qui teste la polyvalence et l'endurance des athlètes.",
+        "Le triathlon est souvent pratique en competition, avec des distances variant de courtes epreuves à des Ironman. As-tu un type de triathlon ou un athlète prefere ?",
+        "C'est un sport qui offre un defi complet pour le corps et l'esprit."
+      ]
+    },
+    {
+      "tag": "volley-ball",
+      "patterns": [
+        "Qu'est-ce que le volley-ball ?",
+        "Tu suis le volley-ball ?",
+        "Parle-moi du volley-ball",
+        "Le volley-ball, c'est quoi ?"
+      ],
+      "responses": [
+        "Le volley-ball est un sport d'equipe où les joueurs essaient de marquer des points en envoyant un ballon au-dessus d'un filet pour le faire toucher le sol dans le terrain adverse.",
+        "C'est un jeu qui met l'accent sur la coordination, la technique et le travail d'equipe.",
+        "Le volley-ball est pratique à differents niveaux, des ligues locales aux competitions internationales comme les Jeux Olympiques. As-tu une equipe ou un joueur prefere ?",
+        "C'est un sport qui demande agilite, puissance et strategie."
+      ]
+    },
+    {
+      "tag": "yoga",
+      "patterns": [
+        "Qu'est-ce que le yoga ?",
+        "Tu pratiques le yoga ?",
+        "Parle-moi du yoga",
+        "Le yoga, c'est quoi ?"
+      ],
+      "responses": [
+        "Le yoga est une pratique physique et mentale qui combine des postures, des techniques de respiration et de meditation pour ameliorer la flexibilite, la force et la concentration.",
+        "C'est une activite qui peut être adaptee à differents niveaux de competence et vise à promouvoir le bien-être general.",
+        "Le yoga est souvent pratique en cours ou à la maison, avec des styles varies comme le vinyasa, le hatha ou le yin. As-tu une posture ou une pratique preferee ?",
+        "C'est une pratique qui favorise l'equilibre entre le corps et l'esprit."
+      ]
+    },
+    {
+      "tag": "pokemon_001",
+      "patterns": [
+          "(Parle-moi de) Bulbizarre",
+          "(Quelles sont les caracteristiques de) Bulbizarre ?",
+          "(Donne-moi des infos sur) Bulbizarre",
+          "Bulbizarre (c'est quoi ?)"
+      ],
+      "responses": [
+          "Bulbizarre est un Pokemon de type Plante/Poison, connu pour son apparence de petit lezard avec une plante sur le dos.",
+          "Il a une base de stats totale de 318, avec des statistiques equilibrees entre ses differentes caracteristiques.",
+          "Bulbizarre evolue en Herbizarre au niveau 16, puis en Florizarre au niveau 32.",
+          "Il est celebre pour son attaque 'Fouet Lianes' et sa capacite a utiliser des mouvements de type Plante comme 'Giga-Sangsue'."
+      ]
+  },
+  {
+      "tag": "pokemon_002",
+      "patterns": [
+          "(Parle-moi de) Herbizarre",
+          "(Quelles sont les caracteristiques de) Herbizarre ?",
+          "(Donne-moi des infos sur) Herbizarre",
+          "Herbizarre (c'est quoi ?)"
+      ],
+      "responses": [
+          "Herbizarre est un Pokemon de type Plante/Poison, evolution de Bulbizarre.",
+          "Il a une base de stats totale de 405, avec des statistiques augmentees par rapport a celles de Bulbizarre.",
+          "Herbizarre evolue en Florizarre au niveau 32.",
+          "Il est connu pour son attaque 'Tranch'Herbe' et sa capacite a utiliser des attaques puissantes comme 'Rafale Piquante'."
+      ]
+  },
+  {
+      "tag": "pokemon_003",
+      "patterns": [
+          "(Parle-moi de) Florizarre",
+          "(Quelles sont les caracteristiques de) Florizarre ?",
+          "(Donne-moi des infos sur) Florizarre",
+          "Florizarre (c'est quoi ?)"
+      ],
+      "responses": [
+          "Florizarre est un Pokemon de type Plante/Poison, evolution finale d'Herbizarre.",
+          "Il a une base de stats totale de 525, avec des statistiques elevees en Attaque Speciale et en Defense.",
+          "Florizarre est connu pour sa grande fleur sur le dos et son attaque 'Fleur d'Obscurite'.",
+          "Il peut apprendre des attaques puissantes comme 'Giga-Sangsue' et 'Vege-Attak'."
+      ]
+  },
+  {
+      "tag": "pokemon_004",
+      "patterns": [
+          "(Parle-moi de) Salameche",
+          "(Quelles sont les caracteristiques de) Salameche ?",
+          "(Donne-moi des infos sur) Salameche",
+          "Salameche (c'est quoi ?)"
+      ],
+      "responses": [
+          "Salameche est un Pokemon de type Feu, connu pour son apparence de petit lezard avec une flamme au bout de sa queue.",
+          "Il a une base de stats totale de 309, avec des statistiques elevees en Attaque et en Vitesse.",
+          "Salameche evolue en Reptincel au niveau 16, puis en Dracaufeu au niveau 36.",
+          "Il est celebre pour son attaque 'Flammeche' et sa capacite a utiliser des mouvements de type Feu comme 'Lance-Flammes'."
+      ]
+  },
+  {
+      "tag": "pokemon_005",
+      "patterns": [
+          "(Parle-moi de) Reptincel",
+          "(Quelles sont les caracteristiques de) Reptincel ?",
+          "(Donne-moi des infos sur) Reptincel",
+          "Reptincel (c'est quoi ?)"
+      ],
+      "responses": [
+          "Reptincel est un Pokemon de type Feu, evolution de Salamèche.",
+          "Il a une base de stats totale de 405, avec des statistiques augmentees en Attaque et en Vitesse.",
+          "Reptincel evolue en Dracaufeu au niveau 36.",
+          "Il est connu pour son attaque 'Flammèche' et sa capacite a utiliser des attaques puissantes comme 'Deflagration'."
+      ]
+  },
+  {
+      "tag": "pokemon_006",
+      "patterns": [
+          "(Parle-moi de) Dracaufeu",
+          "(Quelles sont les caracteristiques de) Dracaufeu ?",
+          "(Donne-moi des infos sur) Dracaufeu",
+          "Dracaufeu (c'est quoi ?)"
+      ],
+      "responses": [
+          "Dracaufeu est un Pokemon de type Feu/Vol, evolution finale de Reptincel.",
+          "Il a une base de stats totale de 534, avec des statistiques elevees en Attaque et en Vitesse.",
+          "Dracaufeu est celebre pour ses puissantes attaques de type Feu comme 'Lance-Flammes' et 'Deflagration'.",
+          "Il peut egalement mega-evoluer en Mega-Dracaufeu X ou Mega-Dracaufeu Y dans certaines regions."
+      ]
+  },
+  {
+      "tag": "pokemon_007",
+      "patterns": [
+          "(Parle-moi de) Carapuce",
+          "(Quelles sont les caracteristiques de) Carapuce ?",
+          "(Donne-moi des infos sur) Carapuce",
+          "Carapuce (c'est quoi ?)"
+      ],
+      "responses": [
+          "Carapuce est un Pokemon de type Eau, connu pour son apparence de petite tortue.",
+          "Il a une base de stats totale de 314, avec des statistiques equilibrees en Defense et en Attaque Speciale.",
+          "Carapuce evolue en Carabaffe au niveau 16, puis en Tortank au niveau 36.",
+          "Il est celebre pour son attaque 'Pistolet a O' et sa capacite a utiliser des mouvements de type Eau comme 'Hydrocanon'."
+      ]
+  },
+  {
+      "tag": "pokemon_008",
+      "patterns": [
+          "(Parle-moi de) Carabaffe",
+          "(Quelles sont les caracteristiques de) Carabaffe ?",
+          "(Donne-moi des infos sur) Carabaffe",
+          "Carabaffe (c'est quoi ?)"
+      ],
+      "responses": [
+          "Carabaffe est un Pokemon de type Eau, evolution de Carapuce.",
+          "Il a une base de stats totale de 405, avec des statistiques equilibrees entre ses caracteristiques.",
+          "Carabaffe evolue en Tortank au niveau 36.",
+          "Il est connu pour son attaque 'Hydrocanon' et sa capacite a utiliser des mouvements puissants comme 'Surf'."
+      ]
+  },
+  {
+      "tag": "pokemon_009",
+      "patterns": [
+          "(Parle-moi de) Tortank",
+          "(Quelles sont les caracteristiques de) Tortank ?",
+          "(Donne-moi des infos sur) Tortank",
+          "Tortank (c'est quoi ?)"
+      ],
+      "responses": [
+          "Tortank est un Pokemon de type Eau, evolution finale de Carabaffe.",
+          "Il a une base de stats totale de 530, avec des statistiques elevees en Defense et en Attaque Speciale.",
+          "Tortank est connu pour ses puissantes attaques de type Eau comme 'Hydrocanon' et 'Hydroqueue'.",
+          "Il peut egalement mega-evoluer en Mega-Tortank dans certaines regions."
+      ]
+  },
+  {
+      "tag": "pokemon_010",
+      "patterns": [
+          "(Parle-moi de) Chenipan",
+          "(Quelles sont les caracteristiques de) Chenipan ?",
+          "(Donne-moi des infos sur) Chenipan",
+          "Chenipan (c'est quoi ?)"
+      ],
+      "responses": [
+          "Chenipan est un Pokemon de type Insecte, connu pour son apparence de chenille.",
+          "Il a une base de stats totale de 195, avec des statistiques tres faibles, mais il evolue rapidement.",
+          "Chenipan evolue en Chrysacier au niveau 7, puis en Papilusion au niveau 10.",
+          "Il est celebre pour ses attaques de type Insecte comme 'Charge' et 'Vampirisme'."
+      ]
+  },
+  {
+      "tag": "pokemon_011",
+      "patterns": [
+          "(Parle-moi de) Chrysacier",
+          "(Quelles sont les caracteristiques de) Chrysacier ?",
+          "(Donne-moi des infos sur) Chrysacier",
+          "Chrysacier (c'est quoi ?)"
+      ],
+      "responses": [
+          "Chrysacier est un Pokemon de type Insecte, evolution de Chenipan.",
+          "Il a une base de stats totale de 205, avec des statistiques ameliorees par rapport a Chenipan.",
+          "Chrysacier evolue en Papilusion au niveau 10.",
+          "Il est connu pour ses capacites de defense ameliorees et ses attaques comme 'Charge'."
+      ]
+  },
+  {
+      "tag": "pokemon_012",
+      "patterns": [
+          "(Parle-moi de) Papilusion",
+          "(Quelles sont les caracteristiques de) Papilusion ?",
+          "(Donne-moi des infos sur) Papilusion",
+          "Papilusion (c'est quoi ?)"
+      ],
+      "responses": [
+          "Papilusion est un Pokemon de type Insecte/Vol, evolution finale de Chrysacier.",
+          "Il a une base de stats totale de 395, avec des statistiques elevees en Vitesse et en Attaque Speciale.",
+          "Papilusion est celebre pour ses attaques de type Insecte comme 'Vampirisme' et 'Tornade'.",
+          "Il est egalement connu pour ses ailes colorees et ses capacites de vol."
+      ]
+  }
   ]
 }
