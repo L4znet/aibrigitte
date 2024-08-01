@@ -19,6 +19,58 @@
         "Bonjour, que veux-tu ?"
       ]
     },
+
+    {
+      "tag":"info1",
+      "patterns": [
+        "vinyl",
+        "vinyle"
+      ],
+      "responses":[
+        "Brigitte adorait ecouter des vinyles,d'ailleurs je crois qu'elle faisait graver  ses propress vinyles"
+      ]
+    },
+    {
+      "tag":"info2",
+      "patterns": [
+        "machine à écrire"
+      ],
+
+      "responses": [ "Je n'ai jamais compris l'intéret pour cette vielle machine, Brigitte l'a gardait et l'utilisait regulierement"]
+    },
+
+    {
+      "tag": "info3",
+      "patterns": [
+        "lecteur K7",
+        "k7",
+        "lecteur k7",
+        "cassette",
+        "casette"
+      ],
+      "responses": [
+        "à l'heure de la digitalisation, du streaming il n'y avait plus que Brigitte pour encore écouter et enregistrer des K7 audio"
+      ]
+    },
+    {
+      "tag": "info4",
+      "patterns": [
+        "telephone",
+        "smartphone"
+      ],
+      "responses": [
+        "je crois que la nostalgie de brigitte me manque, elle n'arrivait pas à utiliser de smartphon et avait gardé son vieux téléphone, elle téléphonait régulièrement avec"
+      ]
+    },
+    {
+      "tag": "info5",
+      "patterns": [
+        "lampe UV"
+      ],
+      "responses": [
+        "c'était la grand passion de brigitte, laisser des messages sur les murs cachés en pleine lumière"
+      ]
+    },
     {
       "tag": "chantier",
       "patterns": [

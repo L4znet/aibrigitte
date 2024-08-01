@@ -22,11 +22,6 @@ class MainWidget(QtWidgets.QWidget):
 
         self.layoutMain = QtWidgets.QVBoxLayout()
 
-        # Ajouter l'image du chatbot au centre
-        self.chatbot_image = QtWidgets.QLabel()
-        self.set_chatbot_image('chatbot.jpg')  
-        self.chatbot_image.setAlignment(QtCore.Qt.AlignCenter)
-        self.layoutMain.addWidget(self.chatbot_image, alignment=QtCore.Qt.AlignCenter)
 
         # Mise en page de la boîte de chat
         self.chatBox = QtWidgets.QVBoxLayout()
@@ -96,32 +91,7 @@ class MainWidget(QtWidgets.QWidget):
         self.inputQuestion.returnPressed.connect(self.sendUserMessage) 
 
         # Définir le titre de la fenêtre et la taille
-        self.setWindowTitle("Chatbot Brigitte")
         self.resize(800, 600)
-
-    def set_chatbot_image(self, image_path):
-        pixmap = QtGui.QPixmap(image_path)
-        # Redimensionner et recadrer pour s'adapter dans un cercle
-        size = min(pixmap.width(), pixmap.height())
-        rect = QtCore.QRect((pixmap.width() - size) // 2, (pixmap.height() - size) // 2, size, size)
-        cropped_pixmap = pixmap.copy(rect).scaled(100, 100, QtCore.Qt.KeepAspectRatioByExpanding, QtCore.Qt.SmoothTransformation)
-
-        # Créer un masque circulaire
-        mask = QtGui.QPixmap(100, 100)
-        mask.fill(QtCore.Qt.transparent)
-
-        painter = QtGui.QPainter(mask)
-        painter.setRenderHint(QtGui.QPainter.Antialiasing)
-        painter.setBrush(QtCore.Qt.black)
-        painter.drawEllipse(0, 0, 100, 100)
-        painter.end()
-
-        # Appliquer le masque à l'image
-        cropped_pixmap.setMask(mask.createMaskFromColor(QtCore.Qt.transparent))
-
-        # Définir le pixmap sur le label
-        self.chatbot_image.setPixmap(cropped_pixmap)
-        self.chatbot_image.setFixedSize(100, 100)
 
     @QtCore.Slot()
     def cleanUpSentence(self, sentence):
@@ -208,7 +178,7 @@ class MainWidget(QtWidgets.QWidget):
                 max-width: 500%; /* Ajustez si nécessaire */
             """)
             bubble_layout.addWidget(message_label)
-            bubble.setStyleSheet("align-self: flex-end;")
+            
         else:
             message_label.setStyleSheet("""
                 background-color: #7A90A4;
@@ -220,7 +190,7 @@ class MainWidget(QtWidgets.QWidget):
                 max-width: 500%; /* Ajustez si nécessaire */
             """)
             bubble_layout.addWidget(message_label)
-            bubble.setStyleSheet("align-self: flex-start;")
+           
 
         return bubble
 
