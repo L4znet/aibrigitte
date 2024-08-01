@@ -33,7 +33,9 @@
     {
       "tag":"info2",
       "patterns": [
-        "machine à écrire"
+        "machine à écrire",
+        "(comment fonctionne) la machine à écrire",
+        "(tu connais) la machine à écrire"
       ],
 
       "responses": [ "Je n'ai jamais compris l'intéret pour cette vielle machine, Brigitte l'a gardait et l'utilisait regulierement"]
@@ -46,7 +48,11 @@
         "k7",
         "lecteur k7",
         "cassette",
-        "casette"
+        "casette",
+        "( j'ai trouvé) une cassette",
+        "( j'ai trouvé) un lecteur k7",
+        "( j'ai trouvé) un lecteur cassette",
+        "( A quoi sert) un lecteur k7"
       ],
       "responses": [
         "à l'heure de la digitalisation, du streaming il n'y avait plus que Brigitte pour encore écouter et enregistrer des K7 audio"
@@ -55,8 +61,15 @@
     {
       "tag": "info4",
       "patterns": [
+        "(je peut utiliser le)telephone",
+        "(je peut utiliser le)smartphone",
         "telephone",
-        "smartphone"
+        "smartphone",
+        "portable",
+        "telephone portable",
+        "(j'ai trouver) un telephone",
+        "(j'ai trouver) un smartphone",
+        "(j'ai trouver) un portable"
       ],
       "responses": [
         "je crois que la nostalgie de brigitte me manque, elle n'arrivait pas à utiliser de smartphon et avait gardé son vieux téléphone, elle téléphonait régulièrement avec"
@@ -194,7 +207,7 @@
       "tag": "name",
       "patterns": [
         "(Comment tu t') appelles ?",
-        "(Quel est ton) nom ?",
+        "(Quel est ton) nom ?",   
         "Ton nom ?"
       ],
       "responses": [
