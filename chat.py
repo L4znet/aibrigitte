@@ -11,8 +11,9 @@ from tensorflow.keras.models import load_model
 
 lemmatizer = WordNetLemmatizer()
 
+with open('intents.json', 'r', encoding='utf-8') as file:
+    intents = json.load(file)
 model = load_model('chatbot_model.h5')
-intents = json.loads(open('intents.json').read())
 words = pickle.load(open('words.pkl', 'rb'))
 classes = pickle.load(open('classes.pkl', 'rb'))
 
