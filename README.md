@@ -1,5 +1,9 @@
 # Brigitte
 __________________________________
+## Setup Activate
+
+### 1) Déplacer le fichier Activate en dehors du dépôt : > Move-Item -Path .\Activate.ps1 -Destination ..
+__________________________________
 ## Comment executer le script ?
 
 ### 1) Allez dans le menu démarrer de windows en cliquant sur logo en forme de fenêtre
