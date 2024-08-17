@@ -1,5 +1,4 @@
 # Check if Python is installed
-git clone https://github.com/L4znet/aibrigitte.git
 
 # Fonction pour vérifier la version de Python
 function Get-PythonVersion {
