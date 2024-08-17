@@ -78,8 +78,6 @@ Invoke-WebRequest -Uri https://bootstrap.pypa.io/get-pip.py -OutFile get-pip.py
 python get-pip.py
 Remove-Item get-pip.py
 
-# Clone the repository
-git clone https://github.com/L4znet/aibrigitte
 
 # Remove the 'env' directory if it exists
 if (Test-Path -Path "env") {
